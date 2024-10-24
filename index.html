@@ -28,7 +28,7 @@
             text-align: center;
             line-height: 1.5;
             font-weight: bold;
-            cursor: pointer; /* Dodany kursor wskazujący interaktywność */
+            cursor: pointer; /* MODIFICATION: Dodany kursor wskazujący interaktywność */
         }
         .team-blue {
             background-color: #0000aa;
@@ -51,7 +51,7 @@
             text-align: center;
             line-height: 1.5;
             font-weight: bold;
-            cursor: pointer; /* Dodany kursor wskazujący interaktywność */
+            cursor: pointer; /* MODIFICATION: Dodany kursor wskazujący interaktywność */
         }
         .bid-box {
             display: inline-block;
@@ -66,6 +66,7 @@
             font-weight: bold;
             border: 2px solid #ffffff;
             position: relative;
+            cursor: pointer; /* MODIFICATION: Dodany kursor wskazujący interaktywność */
         }
         .editable-bid {
             background: none;
@@ -124,6 +125,7 @@
             font-size: 1.8em; /* Większy rozmiar tekstu */
             text-align: center;
             border: 1px solid #555; /* Obramowanie przypominające to na obrazie */
+            white-space: pre-wrap; /* Umożliwia przełamanie linii */
         }
 
         /* Dodane styles dla animacji wyboru kategorii */
@@ -180,17 +182,17 @@
 <body>
     <div class="container">
         <h1>L I C Y T A C J A</h1>
-        <div class="bid-box team-blue">
+        <div class="bid-box team-blue" id="blueBidBox"> <!-- MODIFICATION: Dodano ID -->
             <input type="number" id="blueBid" class="editable-bid" value="0" onkeydown="updateBid(event, 'blue')">
             <p>LICYTACJA</p>
             <button class="va-banque-button" onclick="vaBanque('blue')">VA BANQUE</button>
         </div>
-        <div class="bid-box team-green">
+        <div class="bid-box team-green" id="greenBidBox"> <!-- MODIFICATION: Dodano ID -->
             <input type="number" id="greenBid" class="editable-bid" value="0" onkeydown="updateBid(event, 'green')">
             <p>LICYTACJA</p>
             <button class="va-banque-button" onclick="vaBanque('green')">VA BANQUE</button>
         </div>
-        <div class="bid-box team-yellow">
+        <div class="bid-box team-yellow" id="yellowBidBox"> <!-- MODIFICATION: Dodano ID -->
             <input type="number" id="yellowBid" class="editable-bid" value="0" onkeydown="updateBid(event, 'yellow')">
             <p>LICYTACJA</p>
             <button class="va-banque-button" onclick="vaBanque('yellow')">VA BANQUE</button>
@@ -232,24 +234,21 @@
         <div class="buttons-wrapper">
             <div class="button-container">
                 <button onclick="addBalanceAllTeams()">Dodaj 5000 wszystkim drużynom</button>
-                                <button onclick="deduct500FromBids()">500 od każdego</button>
-                <button onclick="startAuction()">Rozpocznij licytację</button>
+                <button onclick="applyPenalty()">Wymierz karę za pasywność</button>
+                <button onclick="resetBidding()">Resetuj licytację</button>
+                <button onclick="addToPool()">Dodaj do puli</button>
                 <button id="endBiddingButton" onclick="endBidding()">Zakończ licytację</button>
                 <button id="showQuestionButton" onclick="showQuestion()">Pokaż pytanie</button>
                 <button onclick="showAnswer()">Pokaż odpowiedź</button>
                 <button onclick="acceptAnswer()">Zalicz odpowiedź</button>
                 <button onclick="rejectAnswer()">Odrzuć odpowiedź</button>
-
-
+                <button onclick="startAuction()">Rozpocznij licytację</button>
+                <button onclick="deduct500FromBids()">Odejmij 500 zł od licytacji</button>
             </div>
 
             <div class="button-container">
                 <button onclick="playJingle()">Dżingiel</button>
                 <button onclick="stopAllAudio()">STOP DŻINGLE</button>
-            </div>
-
-            <div class="button-container">
-
             </div>
 
             <div class="button-container">
@@ -445,7 +444,6 @@
 "StolicaRP:Kto wyrzucił sierżanta Szymona Saruckiego z wydziału dochodzeniowo-śledczego?:Aspirant Konieczny",
 "StolicaRP:Kogo szukali technicy kryminalistyki?:Wyspecjalizowanych, młodych techników.",
 "",
-
         ];
 
         const teams = {
@@ -835,7 +833,7 @@
             }, 1000);
         }
 
-        // Funkcje do obsługi kliknięć na saldach drużyn i puli
+        // MODIFICATION: Funkcja do obsługi kliknięć na saldach drużyn, puli i licytacjach
         function handleBalanceClick(event, type, team = null) {
             event.preventDefault();
             // Sprawdzenie, który przycisk myszy został kliknięty
@@ -885,6 +883,33 @@
             }
         }
 
+        // MODIFICATION: Funkcja do obsługi kliknięć na boxach licytacji
+        function handleBidClick(event, team) {
+            event.preventDefault();
+            if (event.button === 0) { // Left-click: Ustawienie licytacji
+                let amountStr = prompt(`Wprowadź kwotę licytacji dla drużyny ${getTeamName(team)}:`);
+                if (amountStr === null) {
+                    return;
+                }
+                let amount = parseFloat(amountStr);
+                if (isNaN(amount) || amount < 0) {
+                    alert("Nieprawidłowa kwota. Proszę wprowadzić liczbę nieujemną.");
+                    return;
+                }
+                if (teams[team].balance < amount) {
+                    alert(`Saldo drużyny ${getTeamName(team)} jest niewystarczające na tę licytację.`);
+                    return;
+                }
+                // Aktualizacja salda i licytacji
+                teams[team].balance -= amount;
+                poolBalance += amount;
+                teams[team].bid = amount;
+                updateBalances();
+                playSound('sounds/add_to_pool.mp3');
+            }
+            // Możesz dodać obsługę middle-click, jeśli jest potrzebna
+        }
+
         // Dodanie nasłuchiwaczy zdarzeń po załadowaniu strony
         window.onload = function() {
             initializeQuestions();
@@ -894,6 +919,10 @@
             document.getElementById("yellowBalanceBox").addEventListener("mousedown", (e) => handleBalanceClick(e, 'team', 'yellow'));
             // Dodanie nasłuchiwaczy do puli
             document.getElementById("poolBalanceBox").addEventListener("mousedown", (e) => handleBalanceClick(e, 'pool'));
+            // MODIFICATION: Dodanie nasłuchiwaczy do boxów licytacji
+            document.getElementById("blueBidBox").addEventListener("mousedown", (e) => handleBidClick(e, 'blue'));
+            document.getElementById("greenBidBox").addEventListener("mousedown", (e) => handleBidClick(e, 'green'));
+            document.getElementById("yellowBidBox").addEventListener("mousedown", (e) => handleBidClick(e, 'yellow'));
         };
     </script>
 </body>
