@@ -28,6 +28,7 @@
             text-align: center;
             line-height: 1.5;
             font-weight: bold;
+            cursor: pointer; /* Dodany kursor wskazujący interaktywność */
         }
         .team-blue {
             background-color: #0000aa;
@@ -50,6 +51,7 @@
             text-align: center;
             line-height: 1.5;
             font-weight: bold;
+            cursor: pointer; /* Dodany kursor wskazujący interaktywność */
         }
         .bid-box {
             display: inline-block;
@@ -124,7 +126,7 @@
             border: 1px solid #555; /* Obramowanie przypominające to na obrazie */
         }
 
-        /* Dodane style dla animacji wyboru kategorii */
+        /* Dodane styles dla animacji wyboru kategorii */
         #categorySpinner {
             margin-top: 20px;
             padding: 10px 20px;
@@ -193,19 +195,19 @@
             <p>LICYTACJA</p>
             <button class="va-banque-button" onclick="vaBanque('yellow')">VA BANQUE</button>
         </div>
-        <div class="team-box team-blue">
+        <div class="team-box team-blue" id="blueBalanceBox">
             <p id="blueBalance">0</p>
             <p>STAN KONTA</p>
         </div>
-        <div class="team-box team-green">
+        <div class="team-box team-green" id="greenBalanceBox">
             <p id="greenBalance">0</p>
             <p>STAN KONTA</p>
         </div>
-        <div class="team-box team-yellow">
+        <div class="team-box team-yellow" id="yellowBalanceBox">
             <p id="yellowBalance">0</p>
             <p>STAN KONTA</p>
         </div>
-        <div class="pool-box">
+        <div class="pool-box" id="poolBalanceBox">
             <p id="poolBalance">0</p>
             <p>PULA</p>
         </div>
@@ -230,9 +232,8 @@
         <div class="buttons-wrapper">
             <div class="button-container">
                 <button onclick="addBalanceAllTeams()">Dodaj 5000 wszystkim drużynom</button>
-                <button onclick="applyPenalty()">Wymierz karę za pasywność</button>
+                
                 <button onclick="resetBidding()">Resetuj licytację</button>
-                <button onclick="addToPool()">Dodaj do puli</button>
                 <button id="endBiddingButton" onclick="endBidding()">Zakończ licytację</button>
                 <button id="showQuestionButton" onclick="showQuestion()">Pokaż pytanie</button>
                 <button onclick="showAnswer()">Pokaż odpowiedź</button>
@@ -414,31 +415,6 @@
 "Budownictwo:Co to jest ściana nośna?:Ściana nośna to ściana, która przenosi obciążenia konstrukcji i przekazuje je na fundamenty.",
 "Budownictwo:Jakie są właściwości betonu?:Właściwości betonu to duża wytrzymałość na ściskanie, trwałość, odporność na ogień oraz łatwość w formowaniu.",
 "Budownictwo:Co to jest izolacja termiczna?:Izolacja termiczna to warstwa materiału, która ogranicza przepływ ciepła, chroniąc budynek przed utratą ciepła zimą i przegrzewaniem latem.",
-"Duszpasterstwo i religie:Co to jest Biblia?:Biblia to zbiór ksiąg świętych dla chrześcijan, zawierający Stary i Nowy Testament.",
-"Duszpasterstwo i religie:Jakie są główne religie świata?:Główne religie świata to chrześcijaństwo, islam, hinduizm, buddyzm i judaizm.",
-"Duszpasterstwo i religie:Co to jest modlitwa?:Modlitwa to forma komunikacji z bóstwem lub siłą wyższą.",
-"Duszpasterstwo i religie:Jakie są sakramenty w Kościele katolickim?:Sakramenty to chrzest, bierzmowanie, Eucharystia, pokuta, namaszczenie chorych, kapłaństwo i małżeństwo.",
-"Duszpasterstwo i religie:Co to jest duszpasterstwo?:Duszpasterstwo to działalność duchowa prowadzona przez kapłanów na rzecz wiernych.",
-"Duszpasterstwo i religie:Jakie są filary islamu?:Filary islamu to wyznanie wiary, modlitwa, jałmużna, post i pielgrzymka do Mekki.",
-"Duszpasterstwo i religie:Co to jest buddyzm?:Buddyzm to religia oparta na naukach Buddy, kładąca nacisk na medytację i osiąganie oświecenia.",
-"Duszpasterstwo i religie:Jakie są święta żydowskie?:Święta żydowskie to Pesach, Jom Kipur, Sukkot, Chanuka i Szabat.",
-"Duszpasterstwo i religie:Co to jest Kościół?:Kościół to wspólnota wiernych chrześcijan lub budynek przeznaczony do kultu religijnego.",
-"Duszpasterstwo i religie:Jakie są główne odłamy chrześcijaństwa?:Główne odłamy chrześcijaństwa to katolicyzm, protestantyzm i prawosławie.",
-"Duszpasterstwo i religie:Co to jest medytacja?:Medytacja to praktyka duchowa polegająca na skupieniu umysłu i osiągnięciu wewnętrznego spokoju.",
-"Duszpasterstwo i religie:Jakie są zasady hinduizmu?:Zasady hinduizmu to karma, dharma, reinkarnacja i poszanowanie wszystkich form życia.",
-"Duszpasterstwo i religie:Co to jest krucjata?:Krucjata to wyprawa zbrojna organizowana przez chrześcijan w średniowieczu, mająca na celu odbicie Ziemi Świętej.",
-"Duszpasterstwo i religie:Jakie są rodzaje modlitwy?:Rodzaje modlitwy to modlitwa dziękczynna, prośby, przebłagalna i adoracyjna.",
-"Duszpasterstwo i religie:Co to jest Koran?:Koran to święta księga islamu, uważana za objawienie Allaha przekazane Mahometowi.",
-"Duszpasterstwo i religie:Jakie są zasady moralne w judaizmie?:Zasady moralne judaizmu opierają się na Dziesięciu Przykazaniach i prawach Tory.",
-"Duszpasterstwo i religie:Co to jest eucharystia?:Eucharystia to sakrament spożywania chleba i wina, symbolizujących ciało i krew Chrystusa.",
-"Duszpasterstwo i religie:Jakie są cnoty kardynalne?:Cnoty kardynalne to roztropność, sprawiedliwość, umiarkowanie i męstwo.",
-"Duszpasterstwo i religie:Co to jest nirwana?:Nirwana to stan oświecenia w buddyzmie, oznaczający uwolnienie od cierpienia i cyklu narodzin.",
-"Duszpasterstwo i religie:Jakie są zasady postu w islamie?:Post w islamie, zwany ramadanem, polega na powstrzymywaniu się od jedzenia i picia od świtu do zmierzchu przez miesiąc.",
-"Duszpasterstwo i religie:Co to jest konfesjonał?:Konfesjonał to miejsce w kościele, w którym wierni spowiadają się kapłanowi.",
-"Duszpasterstwo i religie:Jakie są rodzaje grzechów?:Rodzaje grzechów to grzechy ciężkie (śmiertelne) i grzechy powszednie.",
-"Duszpasterstwo i religie:Co to jest reinkarnacja?:Reinkarnacja to wiara w ponowne narodziny duszy w nowym ciele po śmierci.",
-"Duszpasterstwo i religie:Jakie są święta chrześcijańskie?:Święta chrześcijańskie to Boże Narodzenie, Wielkanoc, Wniebowzięcie Najświętszej Maryi Panny.",
-"Duszpasterstwo i religie:Co to jest święcenie pokarmów?:Święcenie pokarmów to tradycja w Kościele katolickim, polegająca na błogosławieństwie potraw na Wielkanoc.",
 "Budownictwo:Jakie są podstawowe etapy budowy domu jednorodzinnego?:Podstawowe etapy budowy domu to przygotowanie terenu, wykonanie fundamentów, budowa ścian, stropów, dachu oraz wykończenie wnętrza.",
 "Matematyka:Co to jest liczba pierwsza?:Liczba pierwsza to liczba naturalna większa od 1, która ma dokładnie dwa dzielniki: 1 i samą siebie.",
 "Matematyka:Jaka jest wartość liczby π (pi)?:Wartość liczby π wynosi około 3,14159.",
@@ -465,8 +441,6 @@
 "StolicaRP:Kto wyrzucił sierżanta Szymona Saruckiego z wydziału dochodzeniowo-śledczego?:Aspirant Konieczny",
 "StolicaRP:Kogo szukali technicy kryminalistyki?:Wyspecjalizowanych, młodych techników.",
 "",
-
-
 
         ];
 
@@ -857,8 +831,65 @@
             }, 1000);
         }
 
+        // Funkcje do obsługi kliknięć na saldach drużyn i puli
+        function handleBalanceClick(event, type, team = null) {
+            event.preventDefault();
+            // Sprawdzenie, który przycisk myszy został kliknięty
+            // 0: lewy, 1: środkowy, 2: prawy
+            if (event.button === 0) { // Left-click: Odejmowanie
+                let amountStr = prompt("Wprowadź kwotę do odjęcia:");
+                if (amountStr === null) {
+                    return;
+                }
+                let amount = parseFloat(amountStr);
+                if (isNaN(amount) || amount <= 0) {
+                    alert("Nieprawidłowa kwota. Proszę wprowadzić dodatnią liczbę.");
+                    return;
+                }
+                if (type === 'team') {
+                    if (teams[team].balance < amount) {
+                        alert(`Saldo drużyny ${getTeamName(team)} jest niewystarczające.`);
+                        return;
+                    }
+                    teams[team].balance -= amount;
+                } else if (type === 'pool') {
+                    if (poolBalance < amount) {
+                        alert("Pula jest niewystarczająca.");
+                        return;
+                    }
+                    poolBalance -= amount;
+                }
+                updateBalances();
+                playSound('sounds/change_pool.mp3');
+            } else if (event.button === 1) { // Middle-click: Dodawanie
+                let amountStr = prompt("Wprowadź kwotę do dodania:");
+                if (amountStr === null) {
+                    return;
+                }
+                let amount = parseFloat(amountStr);
+                if (isNaN(amount) || amount <= 0) {
+                    alert("Nieprawidłowa kwota. Proszę wprowadzić dodatnią liczbę.");
+                    return;
+                }
+                if (type === 'team') {
+                    teams[team].balance += amount;
+                } else if (type === 'pool') {
+                    poolBalance += amount;
+                }
+                updateBalances();
+                playSound('sounds/add_to_pool.mp3');
+            }
+        }
+
+        // Dodanie nasłuchiwaczy zdarzeń po załadowaniu strony
         window.onload = function() {
             initializeQuestions();
+            // Dodanie nasłuchiwaczy do sald drużyn
+            document.getElementById("blueBalanceBox").addEventListener("mousedown", (e) => handleBalanceClick(e, 'team', 'blue'));
+            document.getElementById("greenBalanceBox").addEventListener("mousedown", (e) => handleBalanceClick(e, 'team', 'green'));
+            document.getElementById("yellowBalanceBox").addEventListener("mousedown", (e) => handleBalanceClick(e, 'team', 'yellow'));
+            // Dodanie nasłuchiwaczy do puli
+            document.getElementById("poolBalanceBox").addEventListener("mousedown", (e) => handleBalanceClick(e, 'pool'));
         };
     </script>
 </body>
