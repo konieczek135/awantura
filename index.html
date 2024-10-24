@@ -1,0 +1,852 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Awantura o Kasę</title>
+    <style>
+        body {
+            font-family: 'Courier New', Courier, monospace;
+            background-color: black;
+            color: white;
+            text-align: center;
+            padding: 20px;
+        }
+        .container {
+            max-width: 1000px;
+            margin: auto;
+            padding: 20px;
+        }
+        .team-box {
+            display: inline-block;
+            width: 200px;
+            height: 100px;
+            margin: 10px;
+            padding: 10px;
+            color: white;
+            font-size: 2em;
+            text-align: center;
+            line-height: 1.5;
+            font-weight: bold;
+        }
+        .team-blue {
+            background-color: #0000aa;
+        }
+        .team-green {
+            background-color: #008000;
+        }
+        .team-yellow {
+            background-color: #daa520;
+        }
+        .pool-box {
+            display: inline-block;
+            width: 200px;
+            height: 100px;
+            margin: 10px;
+            padding: 10px;
+            background-color: #555555;
+            color: white;
+            font-size: 2em;
+            text-align: center;
+            line-height: 1.5;
+            font-weight: bold;
+        }
+        .bid-box {
+            display: inline-block;
+            width: 200px;
+            height: 150px; /* Zwiększona wysokość dla przycisku VA BANQUE */
+            margin: 10px;
+            padding: 10px;
+            color: white;
+            font-size: 1.5em;
+            text-align: center;
+            line-height: 1.5;
+            font-weight: bold;
+            border: 2px solid #ffffff;
+            position: relative;
+        }
+        .editable-bid {
+            background: none;
+            border: none;
+            color: white;
+            font-size: 1.5em;
+            width: 100%;
+            text-align: center;
+        }
+        .button-container {
+            margin-top: 20px;
+        }
+        button {
+            margin: 10px;
+            padding: 10px 20px;
+            font-size: 16px;
+            cursor: pointer;
+            background-color: #333;
+            color: white;
+            border: none;
+            transition: background-color 0.3s;
+        }
+        button:hover {
+            background-color: #555;
+        }
+        button:disabled {
+            background-color: #777;
+            cursor: not-allowed;
+        }
+        .category {
+            background-color: #444; /* Tło podobne do panelu w górnej części */
+            color: white;
+            font-size: 1.2em;
+            padding: 5px 20px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            border-bottom: 1px solid #888; /* Dodanie dolnej linii */
+        }
+
+        #questionCategoryLabel {
+            font-weight: bold;
+            color: #00ff00; /* Zielony kolor kategorii */
+        }
+
+        #winningAmount {
+            font-size: 1.5em;
+            color: #f5f5f5; /* Jasny kolor dla kwoty wygranej */
+        }
+
+        .question-box {
+            margin-top: 10px;
+            padding: 10px 15px;
+            background-color: #333; /* Ciemniejsze tło dla pytania */
+            color: #fff;
+            font-size: 1.8em; /* Większy rozmiar tekstu */
+            text-align: center;
+            border: 1px solid #555; /* Obramowanie przypominające to na obrazie */
+        }
+
+        /* Dodane style dla animacji wyboru kategorii */
+        #categorySpinner {
+            margin-top: 20px;
+            padding: 10px 20px;
+            background-color: #222; /* Kolor tła podobny do tego na zdjęciu */
+            color: #fff;
+            font-size: 1.5em; /* Mniejszy rozmiar tekstu */
+            border: none; /* Usunięcie obramowania */
+            min-height: 60px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            text-align: left;
+        }
+
+        #spinButton {
+            margin-top: 20px;
+        }
+
+        /* Styl dla wyświetlacza odliczania */
+        #countdownDisplay {
+            margin-top: 10px;
+            padding: 5px 15px;
+            background-color: #222;
+            color: #ff0000; /* Czerwony kolor dla odliczania */
+            font-size: 1.5em;
+            text-align: right;
+            border: 1px solid #444;
+        }
+
+        /* Przeniesienie wszystkich przycisków na dół */
+        .buttons-wrapper {
+            margin-top: 40px;
+        }
+
+        /* Styl dla przycisku VA BANQUE */
+        .va-banque-button {
+            margin-top: 10px;
+            padding: 5px 10px;
+            font-size: 1em;
+            background-color: #ff4500;
+            border: none;
+            cursor: pointer;
+            transition: background-color 0.3s;
+        }
+
+        .va-banque-button:hover {
+            background-color: #ff6347;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>L I C Y T A C J A</h1>
+        <div class="bid-box team-blue">
+            <input type="number" id="blueBid" class="editable-bid" value="0" onkeydown="updateBid(event, 'blue')">
+            <p>LICYTACJA</p>
+            <button class="va-banque-button" onclick="vaBanque('blue')">VA BANQUE</button>
+        </div>
+        <div class="bid-box team-green">
+            <input type="number" id="greenBid" class="editable-bid" value="0" onkeydown="updateBid(event, 'green')">
+            <p>LICYTACJA</p>
+            <button class="va-banque-button" onclick="vaBanque('green')">VA BANQUE</button>
+        </div>
+        <div class="bid-box team-yellow">
+            <input type="number" id="yellowBid" class="editable-bid" value="0" onkeydown="updateBid(event, 'yellow')">
+            <p>LICYTACJA</p>
+            <button class="va-banque-button" onclick="vaBanque('yellow')">VA BANQUE</button>
+        </div>
+        <div class="team-box team-blue">
+            <p id="blueBalance">0</p>
+            <p>STAN KONTA</p>
+        </div>
+        <div class="team-box team-green">
+            <p id="greenBalance">0</p>
+            <p>STAN KONTA</p>
+        </div>
+        <div class="team-box team-yellow">
+            <p id="yellowBalance">0</p>
+            <p>STAN KONTA</p>
+        </div>
+        <div class="pool-box">
+            <p id="poolBalance">0</p>
+            <p>PULA</p>
+        </div>
+
+        <div id="categorySpinner">
+            Kliknij "Losuj kategorię", aby rozpocząć
+        </div>
+        <button id="spinButton" onclick="selectCategory()">Losuj kategorię</button>
+
+        <div class="category">
+            <span>KATEGORIA: </span>
+            <label id="questionCategoryLabel">Brak wybranej kategorii</label>
+            <span> DO WYGRANIA: <span id="winningAmount">0</span> zł</span>
+        </div>
+
+        <div class="question-box" id="questionBox">
+            Wylosuj kategorię, aby rozpocząć
+        </div>
+
+        <div id="countdownDisplay">Czas: 60 sekund</div>
+
+        <div class="buttons-wrapper">
+            <div class="button-container">
+                <button onclick="addBalanceAllTeams()">Dodaj 5000 wszystkim drużynom</button>
+                <button onclick="applyPenalty()">Wymierz karę za pasywność</button>
+                <button onclick="resetBidding()">Resetuj licytację</button>
+                <button onclick="addToPool()">Dodaj do puli</button>
+                <button id="endBiddingButton" onclick="endBidding()">Zakończ licytację</button>
+                <button id="showQuestionButton" onclick="showQuestion()">Pokaż pytanie</button>
+                <button onclick="showAnswer()">Pokaż odpowiedź</button>
+                <button onclick="acceptAnswer()">Zalicz odpowiedź</button>
+                <button onclick="rejectAnswer()">Odrzuć odpowiedź</button>
+                <button onclick="startAuction()">Rozpocznij licytację</button>
+                <button onclick="deduct500FromBids()">Odejmij 500 zł od licytacji</button>
+            </div>
+
+            <div class="button-container">
+                <button onclick="playJingle()">Dżingiel</button>
+                <button onclick="stopAllAudio()">STOP DŻINGLE</button>
+            </div>
+
+            <div class="button-container">
+                <button onclick="startCountdown()">ROZPOCZNIJ ODLICZANIE</button>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        const questionsList = [
+"Biologia:Co to jest fotosynteza?:Fotosynteza to proces, w którym rośliny przekształcają światło słoneczne, dwutlenek węgla i wodę w glukozę i tlen.",
+"Biologia:Jakie organizmy przeprowadzają chemosyntezę?:Chemosyntezę przeprowadzają niektóre bakterie, takie jak bakterie nitryfikacyjne.",
+"Biologia:Co to jest mitochondrium?:Mitochondrium to organellum komórkowe odpowiedzialne za produkcję energii w postaci ATP.",
+"Biologia:Jakie są fazy cyklu komórkowego?:Cykl komórkowy składa się z interfazy (G1, S, G2) oraz mitozy.",
+"Biologia:Co to jest osmoza?:Osmoza to proces przenikania wody przez błonę półprzepuszczalną.",
+"Biologia:Jakie są główne rodzaje RNA?:Główne rodzaje RNA to mRNA, tRNA i rRNA.",
+"Biologia:Co to jest łańcuch pokarmowy?:Łańcuch pokarmowy to sekwencja organizmów, które przekazują sobie energii poprzez zjadanie się nawzajem.",
+"Biologia:Jakie są rodzaje tkanki mięśniowej?:Rodzaje tkanki mięśniowej to tkanka mięśniowa gładka, poprzecznie prążkowana szkieletowa oraz poprzecznie prążkowana sercowa.",
+"Biologia:Co to jest genotyp?:Genotyp to zespół wszystkich genów organizmu.",
+"Biologia:Jakie są etapy translacji?:Translacja składa się z inicjacji, elongacji oraz terminacji.",
+"Biologia:Co to jest homeostaza?:Homeostaza to zdolność organizmu do utrzymywania stabilnych warunków wewnętrznych.",
+"Biologia:Jakie są rodzaje błon komórkowych?:Rodzaje błon komórkowych to błona komórkowa, błona jądrowa, błona mitochondrialna itp.",
+"Biologia:Co to jest allel?:Allel to alternatywna forma genu występująca na tym samym locus chromosomu.",
+"Biologia:Jakie są sposoby rozmnażania się organizmów?:Organizmy rozmnażają się płciowo lub bezpłciowo.",
+"Biologia:Co to jest kwas nukleinowy?:Kwas nukleinowy to polimer składający się z nukleotydów, na przykład DNA lub RNA.",
+"Biologia:Jakie są funkcje wątroby?:Wątroba odpowiada za metabolizm, detoksykację oraz magazynowanie żelaza.",
+"Biologia:Co to jest symbioza?:Symbioza to życie dwóch organizmów różnych gatunków w bliskim współżyciu, korzystnym dla obu stron.",
+"Biologia:Jakie są rodzaje mitozy?:Rodzaje mitozy to podział wegetatywny i podział generatywny.",
+"Biologia:Co to jest enzym?:Enzym to białko katalizujące reakcje chemiczne w organizmie.",
+"Biologia:Jakie są rodzaje hormonów roślinnych?:Rodzaje hormonów roślinnych to auksyny, gibereliny, cytokininy, kwas abscysynowy i etylen.",
+"Biologia:Co to jest wiązanie kowalencyjne?:Wiązanie kowalencyjne to rodzaj wiązania chemicznego polegającego na dzieleniu wspólnych elektronów.",
+"Biologia:Jakie są etapy oddychania komórkowego?:Oddychanie komórkowe składa się z glikolizy, cyklu Krebsa oraz łańcucha oddechowego.",
+"Biologia:Co to jest osmoregulacja?:Osmoregulacja to proces regulacji zawartości wody i soli w organizmie.",
+"Biologia:Jakie są funkcje śledziony?:Śledziona uczestniczy w procesach odpornościowych oraz filtracji krwi.",
+"Biologia:Co to jest ATP?:ATP (adenozynotrifosforan) to nośnik energii używany przez komórki do wykonywania pracy.",
+"Chemia:Co to jest wiązanie jonowe?:Wiązanie jonowe to rodzaj wiązania chemicznego, w którym jeden atom oddaje elektron, a drugi go przyjmuje.",
+"Chemia:Jakie są główne rodzaje wiązań chemicznych?:Rodzaje wiązań chemicznych to wiązania kowalencyjne, jonowe i metaliczne.",
+"Chemia:Co to jest reakcja egzotermiczna?:Reakcja egzotermiczna to reakcja, w której wydziela się energia w postaci ciepła.",
+"Chemia:Jakie są gazy szlachetne?:Gazy szlachetne to hel, neon, argon, krypton, ksenon i radon.",
+"Chemia:Co to jest mol?:Mol to jednostka liczby substancji, zawierająca 6,022 × 10^23 cząsteczek.",
+"Chemia:Jakie są etapy elektrolizy?:Elektroliza składa się z dysocjacji elektrolitycznej, przepływu prądu i reakcjach elektrodowych.",
+"Chemia:Co to jest kwas?:Kwas to związek chemiczny, który w roztworze wodnym dysocjuje, uwalniając jony wodoru (H+).",
+"Chemia:Jakie są główne typy reakcji chemicznych?:Główne typy reakcji chemicznych to reakcje syntezy, analizy, wymiany pojedynczej i wymiany podwójnej.",
+"Chemia:Co to jest elektron walencyjny?:Elektron walencyjny to elektron znajdujący się na zewnętrznej powłoce atomu, biorący udział w tworzeniu wiązań.",
+"Chemia:Jakie są rodzaje wodorotlenków?:Wodorotlenki dzielą się na wodorotlenki metali i wodorotlenki niemetali.",
+"Chemia:Co to jest reakcja redoks?:Reakcja redoks to reakcja chemiczna, w której następuje przeniesienie elektronów między reagentami.",
+"Chemia:Jakie są rodzaje wiązań kowalencyjnych?:Wiązania kowalencyjne dzielą się na wiązania niespolaryzowane i spolaryzowane.",
+"Chemia:Co to jest siła jonowa?:Siła jonowa to miara stężenia jonów w roztworze.",
+"Chemia:Jakie są rodzaje katalizatorów?:Rodzaje katalizatorów to katalizatory homogeniczne i heterogeniczne.",
+"Chemia:Co to jest reakcja addycji?:Reakcja addycji to reakcja, w której cząsteczki przyłączają się do związku nienasyconego, tworząc wiązanie.",
+"Chemia:Jakie są rodzaje tlenków?:Rodzaje tlenków to tlenki kwasowe, zasadowe, amfoteryczne i obojętne.",
+"Chemia:Co to jest zasada?:Zasada to związek chemiczny, który w roztworze wodnym dysocjuje, uwalniając jony wodorotlenkowe (OH-).",
+"Chemia:Jakie są etapy otrzymywania soli?:Sole można otrzymywać przez reakcję kwasu z zasadą, kwasu z metalem lub zasady z tlenkiem kwasowym.",
+"Chemia:Co to jest wiązanie metaliczne?:Wiązanie metaliczne to wiązanie chemiczne między kationami metali i wspólną chmurą elektronów.",
+"Chemia:Jakie są rodzaje kwasów tlenowych?:Kwas tlenowy zawiera atomy tlenu w swojej strukturze, np. kwas siarkowy (H2SO4).",
+"Chemia:Co to jest masa molowa?:Masa molowa to masa jednego mola substancji, wyrażona w gramach.",
+"Chemia:Jakie są rodzaje izotopów?:Izotopy to odmiany tego samego pierwiastka różniące się liczbą neutronów w jądrze.",
+"Chemia:Co to jest wiązanie wodorowe?:Wiązanie wodorowe to słabe wiązanie między atomem wodoru a atomem o dużej elektroujemności.",
+"Chemia:Jakie są etapy hydrolizy soli?:Hydroliza soli może prowadzić do powstawania roztworów o odczynie kwasowym, zasadowym lub obojętnym.",
+"Chemia:Co to jest elektroujemność?:Elektroujemność to zdolność atomu do przyciągania elektronów w wiązaniu chemicznym.",
+"Anatomia i medycyna:Co to jest układ nerwowy?:Układ nerwowy to system narządów odpowiedzialny za odbiór bodźców i kontrolowanie funkcji organizmu.",
+"Anatomia i medycyna:Jakie są funkcje wątroby?:Wątroba pełni funkcje detoksykacyjne, metaboliczne oraz magazynujące.",
+"Anatomia i medycyna:Co to jest serce?:Serce to mięsień, który pompuje krew do całego organizmu.",
+"Anatomia i medycyna:Jakie są rodzaje krwi?:Rodzaje krwi to grupy A, B, AB i 0.",
+"Anatomia i medycyna:Co to jest ciśnienie krwi?:Ciśnienie krwi to siła, z jaką krew naciska na ściany naczyń krwionośnych.",
+"Anatomia i medycyna:Jakie są funkcje płuc?:Płuca odpowiadają za wymianę gazową, w tym pobieranie tlenu i wydalanie dwutlenku węgla.",
+"Anatomia i medycyna:Co to jest neuron?:Neuron to komórka nerwowa, która przewodzi impulsy elektryczne.",
+"Anatomia i medycyna:Jakie są rodzaje tkanek w organizmie człowieka?:Tkanki to nabłonkowa, łączna, mięśniowa i nerwowa.",
+"Anatomia i medycyna:Co to jest hemoglobina?:Hemoglobina to białko znajdujące się w erytrocytach, transportujące tlen.",
+"Anatomia i medycyna:Jakie są funkcje nerek?:Nerki odpowiadają za filtrowanie krwi i produkcję moczu.",
+"Anatomia i medycyna:Co to jest układ pokarmowy?:Układ pokarmowy to system narządów odpowiedzialny za trawienie i wchłanianie składników odżywczych.",
+"Anatomia i medycyna:Jakie są rodzaje stawów?:Stawy dzielą się na stawy kuliste, zawiasowe, obrotowe i płaskie.",
+"Anatomia i medycyna:Co to jest rdzeń kręgowy?:Rdzeń kręgowy to część układu nerwowego znajdująca się w kanale kręgowym, odpowiedzialna za przewodzenie impulsów.",
+"Anatomia i medycyna:Jakie są funkcje śledziony?:Śledziona odpowiada za magazynowanie krwi i udział w odpowiedzi immunologicznej.",
+"Anatomia i medycyna:Co to jest układ limfatyczny?:Układ limfatyczny to system naczyń i narządów, który uczestniczy w odporności i transportuje limfę.",
+"Anatomia i medycyna:Jakie są funkcje trzustki?:Trzustka produkuje enzymy trawienne oraz hormony, takie jak insulina.",
+"Anatomia i medycyna:Co to jest tętnica?:Tętnica to naczynie krwionośne, które transportuje krew od serca do narządów.",
+"Anatomia i medycyna:Jakie są rodzaje układu odpornościowego?:Układ odpornościowy dzieli się na wrodzony i nabyty.",
+"Anatomia i medycyna:Co to jest żołądek?:Żołądek to narząd układu pokarmowego, który trawi pokarm przy użyciu kwasu solnego.",
+"Anatomia i medycyna:Jakie są rodzaje mięśni?:Mięśnie dzielą się na mięśnie szkieletowe, gładkie i sercowe.",
+"Anatomia i medycyna:Co to jest układ hormonalny?:Układ hormonalny to system gruczołów wydzielających hormony, regulujących funkcje organizmu.",
+"Anatomia i medycyna:Jakie są funkcje skóry?:Skóra pełni funkcje ochronne, termoregulacyjne i czuciowe.",
+"Anatomia i medycyna:Co to jest limfocyt?:Limfocyt to rodzaj białej krwinki odpowiedzialnej za odpowiedź immunologiczną.",
+"Anatomia i medycyna:Jakie są rodzaje nerwów?:Nerwy dzielą się na ruchowe, czuciowe i mieszane.",
+"Anatomia i medycyna:Co to jest układ krwionośny?:Układ krwionośny to system naczyń krwionośnych i serca, odpowiedzialny za transport krwi w organizmie.",
+"Duszpasterstwo i religie:Co to jest Biblia?:Biblia to zbiór ksiąg świętych dla chrześcijan, zawierający Stary i Nowy Testament.",
+"Duszpasterstwo i religie:Jakie są główne religie świata?:Główne religie świata to chrześcijaństwo, islam, hinduizm, buddyzm i judaizm.",
+"Duszpasterstwo i religie:Co to jest modlitwa?:Modlitwa to forma komunikacji z bóstwem lub siłą wyższą.",
+"Duszpasterstwo i religie:Jakie są sakramenty w Kościele katolickim?:Sakramenty to chrzest, bierzmowanie, Eucharystia, pokuta, namaszczenie chorych, kapłaństwo i małżeństwo.",
+"Duszpasterstwo i religie:Co to jest duszpasterstwo?:Duszpasterstwo to działalność duchowa prowadzona przez kapłanów na rzecz wiernych.",
+"Duszpasterstwo i religie:Jakie są filary islamu?:Filary islamu to wyznanie wiary, modlitwa, jałmużna, post i pielgrzymka do Mekki.",
+"Duszpasterstwo i religie:Co to jest buddyzm?:Buddyzm to religia oparta na naukach Buddy, kładąca nacisk na medytację i osiąganie oświecenia.",
+"Duszpasterstwo i religie:Jakie są święta żydowskie?:Święta żydowskie to Pesach, Jom Kipur, Sukkot, Chanuka i Szabat.",
+"Duszpasterstwo i religie:Co to jest Kościół?:Kościół to wspólnota wiernych chrześcijan lub budynek przeznaczony do kultu religijnego.",
+"Duszpasterstwo i religie:Jakie są główne odłamy chrześcijaństwa?:Główne odłamy chrześcijaństwa to katolicyzm, protestantyzm i prawosławie.",
+"Duszpasterstwo i religie:Co to jest medytacja?:Medytacja to praktyka duchowa polegająca na skupieniu umysłu i osiągnięciu wewnętrznego spokoju.",
+"Duszpasterstwo i religie:Jakie są zasady hinduizmu?:Zasady hinduizmu to karma, dharma, reinkarnacja i poszanowanie wszystkich form życia.",
+"Duszpasterstwo i religie:Co to jest krucjata?:Krucjata to wyprawa zbrojna organizowana przez chrześcijan w średniowieczu, mająca na celu odbicie Ziemi Świętej.",
+"Duszpasterstwo i religie:Jakie są rodzaje modlitwy?:Rodzaje modlitwy to modlitwa dziękczynna, prośby, przebłagalna i adoracyjna.",
+"Duszpasterstwo i religie:Co to jest Koran?:Koran to święta księga islamu, uważana za objawienie Allaha przekazane Mahometowi.",
+"Duszpasterstwo i religie:Jakie są zasady moralne w judaizmie?:Zasady moralne judaizmu opierają się na Dziesięciu Przykazaniach i prawach Tory.",
+"Duszpasterstwo i religie:Co to jest eucharystia?:Eucharystia to sakrament spożywania chleba i wina, symbolizujących ciało i krew Chrystusa.",
+"Duszpasterstwo i religie:Jakie są cnoty kardynalne?:Cnoty kardynalne to roztropność, sprawiedliwość, umiarkowanie i męstwo.",
+"Duszpasterstwo i religie:Co to jest nirwana?:Nirwana to stan oświecenia w buddyzmie, oznaczający uwolnienie od cierpienia i cyklu narodzin.",
+"Duszpasterstwo i religie:Jakie są zasady postu w islamie?:Post w islamie, zwany ramadanem, polega na powstrzymywaniu się od jedzenia i picia od świtu do zmierzchu przez miesiąc.",
+"Duszpasterstwo i religie:Co to jest konfesjonał?:Konfesjonał to miejsce w kościele, w którym wierni spowiadają się kapłanowi.",
+"Duszpasterstwo i religie:Jakie są rodzaje grzechów?:Rodzaje grzechów to grzechy ciężkie (śmiertelne) i grzechy powszednie.",
+"Duszpasterstwo i religie:Co to jest reinkarnacja?:Reinkarnacja to wiara w ponowne narodziny duszy w nowym ciele po śmierci.",
+"Duszpasterstwo i religie:Jakie są święta chrześcijańskie?:Święta chrześcijańskie to Boże Narodzenie, Wielkanoc, Wniebowzięcie Najświętszej Maryi Panny.",
+"Duszpasterstwo i religie:Co to jest święcenie pokarmów?:Święcenie pokarmów to tradycja w Kościele katolickim, polegająca na błogosławieństwie potraw na Wielkanoc.",
+"Wiedza o Policji:Jakie są zadania Policji?:Zadania Policji to ochrona porządku publicznego, zwalczanie przestępczości, ochrona życia i zdrowia obywateli.",
+"Wiedza o Policji:Co to jest posterunek Policji?:Posterunek Policji to jednostka terenowa Policji, zajmująca się utrzymywaniem porządku na danym obszarze.",
+"Wiedza o Policji:Jakie są stopnie policyjne?:Stopnie policyjne to starszy posterunkowy, sierżant, aspirant, podkomisarz, komisarz, nadkomisarz, inspektor, nadinspektor, generał.",
+"Wiedza o Policji:Co to jest interwencja policyjna?:Interwencja policyjna to działania podejmowane przez funkcjonariuszy Policji w celu rozwiązania problemu lub zagrożenia.",
+"Wiedza o Policji:Jakie są prawa i obowiązki policjanta?:Policjant ma obowiązek dbać o bezpieczeństwo obywateli, przestrzegać prawa, ale także ma prawo do użycia środków przymusu.",
+"Wiedza o Policji:Co to jest patrole policyjne?:Patrole policyjne to działania funkcjonariuszy, mające na celu utrzymanie porządku publicznego.",
+"Wiedza o Policji:Jakie są rodzaje broni używane przez Policję?:Rodzaje broni to broń palna, paralizatory, pałki policyjne.",
+"Wiedza o Policji:Co to jest dochodzenie?:Dochodzenie to działania Policji mające na celu wyjaśnienie okoliczności przestępstwa i zebranie dowodów.",
+"Wiedza o Policji:Jakie są rodzaje Policji w Polsce?:W Polsce istnieją różne rodzaje Policji, takie jak prewencja, kryminalna, drogowa, wodna i antyterrorystyczna.",
+"Wiedza o Policji:Co to jest prewencja?:Prewencja to działania Policji mające na celu zapobieganie przestępstwom i wykroczeniom.",
+"Wiedza o Policji:Jakie są zasady użycia broni przez Policję?:Broń może być użyta tylko w sytuacjach zagrożenia życia lub zdrowia, gdy inne środki okazały się nieskuteczne.",
+"Wiedza o Policji:Co to jest Policja kryminalna?:Policja kryminalna to jednostka Policji zajmująca się zwalczaniem przestępczości kryminalnej i prowadzeniem dochodzeń.",
+"Wiedza o Policji:Jakie są prawa zatrzymanego przez Policję?:Zatrzymany ma prawo do informacji o przyczynie zatrzymania, prawo do obrońcy oraz prawo do kontaktu z rodziną.",
+"Wiedza o Policji:Co to jest numer alarmowy 112?:Numer alarmowy 112 to numer, pod który można zgłaszać wszelkie nagłe sytuacje wymagające interwencji służb ratunkowych.",
+"Wiedza o Policji:Jakie są obowiązki dyżurnego Policji?:Dyżurny Policji koordynuje działania jednostek Policji, przyjmuje zgłoszenia i decyduje o wysłaniu patroli.",
+"Wiedza o Policji:Co to jest zatrzymanie prewencyjne?:Zatrzymanie prewencyjne to działania Policji mające na celu zapobieżenie popełnieniu przestępstwa lub wykroczenia.",
+"Wiedza o Policji:Jakie są rodzaje środków przymusu bezpośredniego?:Środki przymusu bezpośredniego to kajdanki, gaz pieprzowy, pałki, paralizatory i broń palna.",
+"Wiedza o Policji:Co to jest śledztwo?:Śledztwo to postępowanie prowadzone przez Policję lub prokuraturę w celu wyjaśnienia okoliczności popełnienia przestępstwa.",
+"Wiedza o Policji:Jakie są zadania Policji drogowej?:Policja drogowa zajmuje się kontrolą ruchu drogowego, egzekwowaniem przepisów oraz reagowaniem na wypadki drogowe.",
+"Wiedza o Policji:Co to jest kontrola osobista?:Kontrola osobista to przeszukanie osoby przez funkcjonariusza Policji w celu znalezienia niebezpiecznych przedmiotów lub dowodów przestępstwa.",
+"Wiedza o Policji:Jakie są obowiązki świadka wezwanym na Policję?:Świadek ma obowiązek stawić się na wezwanie i składać zeznania zgodnie z prawdą.",
+"Wiedza o Policji:Co to jest jednostka antyterrorystyczna?:Jednostka antyterrorystyczna to specjalna formacja Policji zajmująca się zwalczaniem terroryzmu i ratowaniem zakładników.",
+"Wiedza o Policji:Jakie są zasady legitymowania przez Policję?:Policja ma prawo legitymować osoby w celu ustalenia tożsamości, jeśli istnieje podejrzenie popełnienia przestępstwa lub wykroczenia.",
+"Lotnictwo:Jakie są podstawowe siły działające na samolot?:Podstawowe siły to siła nośna, opór aerodynamiczny, ciąg i ciężar.",
+"Lotnictwo:Co to jest prędkość przelotowa?:Prędkość przelotowa to prędkość, z jaką samolot porusza się na trasie przelotu, optymalizując zużycie paliwa.",
+"Lotnictwo:Jakie są rodzaje skrzydeł samolotu?:Rodzaje skrzydeł to skrzydła proste, skośne, delta i dwupłatowe.",
+"Lotnictwo:Co to jest lot VFR?:Lot VFR to lot na podstawie przepisów o widoczności (Visual Flight Rules), gdzie pilot kieruje się wyłącznie widocznością.",
+"Lotnictwo:Jakie są rodzaje samolotów?:Samoloty dzielą się na pasażerskie, towarowe, myśliwce, bombowce, szkoleniowe i wiele innych.",
+"Lotnictwo:Co to jest autopilot?:Autopilot to system, który automatycznie steruje samolotem bez ingerencji pilota.",
+"Lotnictwo:Jakie są fazy lotu samolotu?:Fazy lotu to start, wznoszenie, przelot, zniżanie i lądowanie.",
+"Lotnictwo:Co to jest czarny skrzynka?:Czarna skrzynka to urządzenie rejestrujące dane lotu oraz rozmowy w kokpicie, używane do analizy wypadków lotniczych.",
+"Lotnictwo:Jakie są funkcje sterów w samolocie?:Ster wysokości kontroluje wznoszenie i opadanie, ster kierunku kontroluje skręt w lewo/prawo, a lotki kontrolują przechylenie.",
+"Lotnictwo:Co to jest turbulencja?:Turbulencja to nieregularne ruchy powietrza, które powodują drgania samolotu.",
+"Lotnictwo:Jakie są rodzaje napędu w lotnictwie?:Rodzaje napędu to silniki tłokowe, odrzutowe, turbowentylatorowe i turbośmigłowe.",
+"Lotnictwo:Co to jest przestrzeń powietrzna?:Przestrzeń powietrzna to część atmosfery kontrolowana przez służby lotnicze, podzielona na strefy według poziomu i rodzaju ruchu.",
+"Lotnictwo:Jakie są procedury awaryjne w lotnictwie?:Procedury awaryjne to zestaw działań mających na celu bezpieczne lądowanie w sytuacji zagrożenia, np. awarii silnika.",
+"Lotnictwo:Co to jest samolot naddźwiękowy?:Samolot naddźwiękowy to samolot, który lata z prędkością większą niż prędkość dźwięku.",
+"Lotnictwo:Jakie są rodzaje komunikacji w lotnictwie?:Rodzaje komunikacji to łączność radiowa, transpondery i komunikacja satelitarna.",
+"Lotnictwo:Co to jest ATC?:ATC (Air Traffic Control) to kontrola ruchu lotniczego, która zapewnia bezpieczeństwo i płynność ruchu lotniczego.",
+"Lotnictwo:Jakie są zasady lotu IFR?:Lot IFR (Instrument Flight Rules) to lot wykonywany według przyrządów nawigacyjnych, niezależnie od warunków pogodowych.",
+"Lotnictwo:Jakie są rodzaje statków powietrznych?:Statki powietrzne to samoloty, śmigłowce, szybowce, balony, drony i sterowce.",
+"Lotnictwo:Co to jest śmigłowiec?:Śmigłowiec to statek powietrzny o pionowym starcie i lądowaniu, napędzany wirnikiem głównym.",
+"Lotnictwo:Jakie są rodzaje startów samolotu?:Starty samolotu to start normalny, start z krótkiego pasa, start z pełnym obciążeniem.",
+"Lotnictwo:Co to jest pułap samolotu?:Pułap to maksymalna wysokość, na którą samolot może się wznosić, zależna od konstrukcji i mocy silników.",
+"Lotnictwo:Jakie są funkcje klap w samolocie?:Klap to ruchome elementy skrzydeł, które zwiększają siłę nośną i pozwalają na lądowanie z mniejszą prędkością.",
+"Lotnictwo:Co to jest podejście do lądowania?:Podejście do lądowania to manewr, w którym samolot zniża się w kierunku pasa startowego w celu lądowania.",
+"Lotnictwo:Jakie są rodzaje dróg startowych?:Drogi startowe to pasy betonowe, asfaltowe, trawiaste oraz starty z wody dla samolotów wodnych.",
+"Lotnictwo:Co to jest FMS?:FMS (Flight Management System) to system zarządzania lotem, który pomaga pilotowi planować i monitorować trasę lotu.",
+"Film polski:Jakie są najbardziej znane polskie filmy?:Znane polskie filmy to Człowiek z marmuru, Seksmisja, Krótki film o miłości, Ida.",
+"Film polski:Kto wyreżyserował Człowiek z marmuru?:Reżyserem Człowieka z marmuru jest Andrzej Wajda.",
+"Film polski:Co to jest kino moralnego niepokoju?:Kino moralnego niepokoju to nurt w polskim kinie lat 70. i 80., podejmujący tematykę społeczną i polityczną.",
+"Film polski:Kto jest reżyserem filmu Ida?:Reżyserem filmu Ida jest Paweł Pawlikowski.",
+"Film polski:Jakie są najważniejsze nagrody w polskim kinie?:Najważniejsze nagrody to Orły, Złote Lwy oraz nagrody na Festiwalu Filmowym w Gdyni.",
+"Film polski:Co to jest Festiwal Polskich Filmów Fabularnych?:To festiwal filmowy odbywający się corocznie w Gdyni, podczas którego nagradzane są najlepsze polskie filmy.",
+"Film polski:Kto zagrał główną rolę w filmie Seksmisja?:Główne role w Seksmisji zagrali Jerzy Stuhr i Olgierd Łukaszewicz.",
+"Film polski:Jakie są najbardziej znane filmy Andrzeja Wajdy?:Znane filmy Andrzeja Wajdy to Popiół i diament, Człowiek z marmuru, Katyń, Pan Tadeusz.",
+"Film polski:Co to jest Polskie Nagrody Filmowe Orły?:Orły to coroczne nagrody przyznawane przez Polską Akademię Filmową za osiągnięcia w dziedzinie filmu.",
+"Film polski:Kto jest reżyserem filmu Krótki film o miłości?:Reżyserem filmu Krótki film o miłości jest Krzysztof Kieślowski.",
+"Film polski:Jakie są najważniejsze tematy poruszane w filmie Kanał?:Film Kanał porusza temat Powstania Warszawskiego i walki powstańców w kanałach miasta.",
+"Film polski:Co to jest Studio Filmowe Tor?:Studio Filmowe Tor to jedno z najważniejszych polskich studiów filmowych, założone przez Krzysztofa Zanussiego.",
+"Film polski:Kto zagrał główną rolę w filmie Pianista?:Główną rolę w filmie Pianista zagrał Adrien Brody.",
+"Film polski:Jakie są cechy charakterystyczne kina Andrzeja Munka?:Kino Andrzeja Munka charakteryzuje się ironią, humanizmem i krytyką rzeczywistości społecznej.",
+"Film polski:Co to jest Złota Kaczka?:Złota Kaczka to nagroda przyznawana przez magazyn Film dla najlepszych polskich produkcji filmowych.",
+"Film polski:Kto jest reżyserem filmu Człowiek z żelaza?:Reżyserem filmu Człowiek z żelaza jest Andrzej Wajda.",
+"Film polski:Jakie są tematy poruszane w filmie Przypadek Krzysztofa Kieślowskiego?:Film Przypadek porusza temat determinacji losu i wpływu przypadkowych zdarzeń na życie człowieka.",
+"Film polski:Co to jest Polska Szkoła Filmowa?:Polska Szkoła Filmowa to nurt w polskim kinie lat 50. i 60., charakteryzujący się realistycznym podejściem do historii i dramatów społecznych.",
+"Film polski:Jakie są najważniejsze filmy Krzysztofa Kieślowskiego?:Najważniejsze filmy to Dekalog, Trzy kolory, Krótki film o miłości, Przypadek.",
+"Film polski:Kto zagrał główną rolę w filmie Popiół i diament?:Główną rolę w filmie Popiół i diament zagrał Zbigniew Cybulski.",
+"Film polski:Jakie są tematy poruszane w filmie Róża Wojciecha Smarzowskiego?:Film Róża porusza tematykę trudnych losów ludzi na Mazurach po II wojnie światowej.",
+"Film polski:Co to jest Studio Filmowe Kadr?:Studio Filmowe Kadr to jedno z najstarszych polskich studiów filmowych, odpowiedzialne za produkcję wielu klasycznych filmów.",
+"Film polski:Jakie są najbardziej znane filmy Wojciecha Smarzowskiego?:Znane filmy to Wesele, Dom zły, Róża, Wołyń, Kler.",
+"Film polski:Kto jest reżyserem filmu Pan Tadeusz?:Reżyserem filmu Pan Tadeusz jest Andrzej Wajda.",
+"Film polski:Jakie są cechy kina Krzysztofa Zanussiego?:Kino Krzysztofa Zanussiego charakteryzuje się głębokimi pytaniami filozoficznymi i moralnymi.",
+"Literatura:Jakie są epoki literackie w historii?:Epoki literackie to antyk, średniowiecze, renesans, barok, oświecenie, romantyzm, pozytywizm, modernizm, dwudziestolecie międzywojenne, współczesność.",
+"Literatura:Kto napisał Pana Tadeusza?:Pana Tadeusza napisał Adam Mickiewicz.",
+"Literatura:Co to jest epos?:Epos to długi poemat epicki, opisujący losy bohaterów na tle ważnych wydarzeń historycznych.",
+"Literatura:Jakie są cechy literatury romantycznej?:Literatura romantyczna charakteryzuje się indywidualizmem, emocjonalnością, zainteresowaniem przyrodą i mistycyzmem.",
+"Literatura:Kto jest autorem Dziadów?:Autorem Dziadów jest Adam Mickiewicz.",
+"Literatura:Jakie są najważniejsze dzieła literatury polskiej?:Najważniejsze dzieła to Pan Tadeusz, Lalka, Quo Vadis, Ferdydurke, Chłopi.",
+"Literatura:Co to jest sonet?:Sonet to utwór liryczny składający się z czternastu wersów, podzielony na dwie czterowiersze i dwie trójki.",
+"Literatura:Jakie są cechy literatury barokowej?:Literatura barokowa charakteryzuje się przepychem, kontrastami, zagadkowością i refleksją nad przemijaniem.",
+"Literatura:Kto napisał Lalkę?:Lalkę napisał Bolesław Prus.",
+"Literatura:Co to jest ballada?:Ballada to utwór epicko-liryczny, łączący elementy narracyjne z lirycznymi, często nawiązujący do ludowych podań.",
+"Literatura:Jakie są cechy literatury pozytywistycznej?:Literatura pozytywistyczna charakteryzuje się realizmem, podejmowaniem problemów społecznych, nauką i pracą jako wartościami.",
+"Literatura:Kto jest autorem Chłopów?:Autorem Chłopów jest Władysław Reymont.",
+"Literatura:Co to jest dramat?:Dramat to gatunek literacki, którego utwory przeznaczone są do wystawiania na scenie.",
+"Literatura:Jakie są cechy literatury renesansowej?:Literatura renesansowa charakteryzuje się humanizmem, nawiązaniem do antyku, optymizmem i wiarą w człowieka.",
+"Literatura:Kto napisał Quo Vadis?:Quo Vadis napisał Henryk Sienkiewicz.",
+"Literatura:Co to jest liryka?:Liryka to rodzaj literacki, w którym dominuje wyrażanie uczuć i emocji.",
+"Literatura:Jakie są cechy literatury średniowiecznej?:Literatura średniowieczna charakteryzuje się religijnością, anonimowością autorów, dydaktyzmem i dualizmem.",
+"Literatura:Kto jest autorem Ferdydurke?:Autorem Ferdydurke jest Witold Gombrowicz.",
+"Literatura:Co to jest powieść?:Powieść to dłuższy utwór epicki, pisany prozą, opowiadający o losach bohaterów w określonym czasie i przestrzeni.",
+"Literatura:Jakie są cechy literatury oświeceniowej?:Literatura oświeceniowa charakteryzuje się racjonalizmem, dydaktyzmem, krytyką przesądów i promowaniem nauki.",
+"Literatura:Kto napisał Krzyżaków?:Krzyżaków napisał Henryk Sienkiewicz.",
+"Literatura:Co to jest tragedia?:Tragedia to dramat, w którym bohaterowie mierzą się z nieuniknionym przeznaczeniem, często kończącym się klęską.",
+"Literatura:Jakie są cechy literatury współczesnej?:Literatura współczesna charakteryzuje się różnorodnością form, eksperymentowaniem, podejmowaniem tematów egzystencjalnych.",
+"Literatura:Kto jest autorem Małego Księcia?:Autorem Małego Księcia jest Antoine de Saint-Exupéry.",
+"Literatura:Co to jest opowiadanie?:Opowiadanie to krótki utwór epicki, opowiadający o jednym wydarzeniu lub epizodzie z życia bohatera.",
+
+
+        ];
+
+        const teams = {
+            blue: { balance: 0, bid: 0 },
+            green: { balance: 0, bid: 0 },
+            yellow: { balance: 0, bid: 0 }
+        };
+        let poolBalance = 0;
+        let countdownTimer;
+        let currentQuestion = null;
+        let questions = {};
+        let biddingEnded = false;
+        let currentAudio = null;
+
+        function playSound(fileName) {
+            if (fileName === 'sounds/add_to_pool.mp3') {
+                let audio = new Audio(fileName);
+                audio.volume = 0.2;
+                audio.play();
+            } else {
+                if (currentAudio) {
+                    currentAudio.pause();
+                    currentAudio.currentTime = 0;
+                }
+                let audio = new Audio(fileName);
+                audio.volume = 0.2;
+                audio.play();
+                currentAudio = audio;
+                audio.addEventListener('ended', () => {
+                    if (currentAudio === audio) {
+                        currentAudio = null;
+                    }
+                });
+            }
+        }
+
+        function playJingle() {
+            playSound('sounds/przed_licytacja.mp3');
+        }
+
+        function stopAllAudio() {
+            if (currentAudio) {
+                currentAudio.pause();
+                currentAudio.currentTime = 0;
+                currentAudio = null;
+            }
+        }
+
+        function addBalanceAllTeams() {
+            teams.blue.balance += 5000;
+            teams.green.balance += 5000;
+            teams.yellow.balance += 5000;
+            updateBalances();
+            playSound('sounds/add_balance.mp3');
+        }
+
+        function applyPenalty() {
+            let teamInput = prompt("Wprowadź nazwę drużyny (niebiescy, zieloni, żółci):");
+            if (!teamInput) {
+                alert("Nie wprowadzono nazwy drużyny.");
+                return;
+            }
+            let team = teamInput.toLowerCase();
+            let penaltyAmount = parseInt(prompt("Wprowadź kwotę kary:"));
+            if (isNaN(penaltyAmount) || penaltyAmount <= 0) {
+                alert("Nieprawidłowa kwota kary.");
+                return;
+            }
+
+            switch (team) {
+                case "niebiescy":
+                    teams.blue.balance -= penaltyAmount;
+                    break;
+                case "zieloni":
+                    teams.green.balance -= penaltyAmount;
+                    break;
+                case "żółci":
+                    teams.yellow.balance -= penaltyAmount;
+                    break;
+                default:
+                    alert("Nieznana drużyna.");
+                    return;
+            }
+            updateBalances();
+            playSound('sounds/change_pool.mp3');
+        }
+
+        function resetBidding() {
+            if (confirm("Czy na pewno chcesz zresetować licytację?")) {
+                resetBiddingState();
+                playSound('sounds/reset_bidding.mp3');
+            }
+        }
+
+        function resetBiddingState() {
+            biddingEnded = false;
+            teams.blue.bid = 0;
+            teams.green.bid = 0;
+            teams.yellow.bid = 0;
+            currentQuestion = null;
+            updateBalances();
+            document.getElementById("blueBid").value = 0;
+            document.getElementById("greenBid").value = 0;
+            document.getElementById("yellowBid").value = 0;
+            document.getElementById("blueBid").disabled = false;
+            document.getElementById("greenBid").disabled = false;
+            document.getElementById("yellowBid").disabled = false;
+            document.getElementById("endBiddingButton").disabled = false;
+            resetAfterAnswer();
+        }
+
+        function endBidding() {
+            if (biddingEnded) {
+                alert("Licytacja już została zakończona.");
+                return;
+            }
+            biddingEnded = true;
+            document.getElementById("blueBid").disabled = true;
+            document.getElementById("greenBid").disabled = true;
+            document.getElementById("yellowBid").disabled = true;
+            document.getElementById("endBiddingButton").disabled = true;
+            playSound('sounds/po_licytacji.mp3');
+        }
+
+        function initializeQuestions() {
+            questionsList.forEach(line => {
+                const [category, question, answer] = line.split(':');
+                if (category && question && answer) {
+                    if (!questions[category.trim()]) {
+                        questions[category.trim()] = [];
+                    }
+                    questions[category.trim()].push({ question: question.trim(), answer: answer.trim() });
+                }
+            });
+        }
+
+        function selectCategory() {
+            resetBiddingState();
+            let categories = Object.keys(questions);
+            if (categories.length === 0) {
+                alert("Brak dostępnych kategorii.");
+                return;
+            }
+            if (countdownTimer) {
+                clearInterval(countdownTimer);
+                countdownTimer = null;
+                document.getElementById("countdownDisplay").innerText = "Czas: 60 sekund";
+            }
+            let spinner = document.getElementById("categorySpinner");
+            let spinButton = document.getElementById("spinButton");
+            let duration = 13000;
+            let intervalTime = 100;
+            let elapsed = 0;
+            let spinInterval;
+            playSound('sounds/losowanie.mp3');
+            spinButton.disabled = true;
+            spinInterval = setInterval(() => {
+                let randomCategory = categories[Math.floor(Math.random() * categories.length)];
+                spinner.innerText = randomCategory;
+                elapsed += intervalTime;
+                if (elapsed >= duration) {
+                    clearInterval(spinInterval);
+                    let selectedCategory = categories[Math.floor(Math.random() * categories.length)];
+                    document.getElementById("questionCategoryLabel").innerText = selectedCategory;
+                    spinner.innerText = "Wybrano: " + selectedCategory;
+                    document.getElementById("winningAmount").innerText = poolBalance;
+                    spinButton.disabled = false;
+                }
+            }, intervalTime);
+        }
+
+        function showQuestion() {
+            if (!biddingEnded) {
+                alert("Najpierw zakończ licytację.");
+                return;
+            }
+            if (currentQuestion === null) {
+                let category = document.getElementById("questionCategoryLabel").innerText;
+                if (!category || category === "Brak wybranej kategorii") {
+                    alert("Najpierw wylosuj kategorię.");
+                    return;
+                }
+                let questionList = questions[category];
+                if (!questionList || questionList.length === 0) {
+                    alert("Brak pytań w wybranej kategorii.");
+                    return;
+                }
+                currentQuestion = questionList[Math.floor(Math.random() * questionList.length)];
+                document.getElementById("winningAmount").innerText = poolBalance;
+            }
+            document.getElementById("questionBox").innerText = currentQuestion.question;
+            playSound('sounds/show_question.mp3');
+        }
+
+        function showAnswer() {
+            if (currentQuestion) {
+                document.getElementById("questionBox").innerText += "\nOdpowiedź: " + currentQuestion.answer;
+            }
+        }
+
+        function acceptAnswer() {
+            if (!currentQuestion) {
+                alert("Nie ma aktywnego pytania do zaakceptowania.");
+                return;
+            }
+            let highestBid = Math.max(teams.blue.bid, teams.green.bid, teams.yellow.bid);
+            if (highestBid === 0) {
+                alert("Brak licytacji do przyznania.");
+                return;
+            }
+            let winningTeams = [];
+            if (highestBid === teams.blue.bid) winningTeams.push('blue');
+            if (highestBid === teams.green.bid) winningTeams.push('green');
+            if (highestBid === teams.yellow.bid) winningTeams.push('yellow');
+            let winningTeam;
+            if (winningTeams.length > 1) {
+                winningTeam = winningTeams[Math.floor(Math.random() * winningTeams.length)];
+            } else {
+                winningTeam = winningTeams[0];
+            }
+            teams[winningTeam].balance += poolBalance;
+            teams.blue.bid = 0;
+            teams.green.bid = 0;
+            teams.yellow.bid = 0;
+            poolBalance = 0;
+            updateBalances();
+            playSound('sounds/accept_answer.mp3');
+            resetAfterAnswer();
+        }
+
+        function rejectAnswer() {
+            if (!currentQuestion) {
+                alert("Nie ma aktywnego pytania do odrzucenia.");
+                return;
+            }
+            for (let team in teams) {
+                poolBalance += teams[team].bid;
+                teams[team].bid = 0;
+            }
+            updateBalances();
+            document.getElementById("questionBox").innerText = "Odpowiedź była błędna. Cała wylicytowana kwota przechodzi do puli.";
+            playSound('sounds/wrong_answer.mp3');
+            resetAfterAnswer();
+        }
+
+        function resetAfterAnswer() {
+            currentQuestion = null;
+            document.getElementById("questionCategoryLabel").innerText = "Brak wybranej kategorii";
+            document.getElementById("questionBox").innerText = "Wylosuj kategorię, aby rozpocząć";
+            document.getElementById("winningAmount").innerText = "0";
+            document.getElementById("spinButton").disabled = false;
+        }
+
+        function vaBanque(team) {
+            switch(team) {
+                case 'blue':
+                    teams.blue.bid += teams.blue.balance;
+                    poolBalance += teams.blue.balance;
+                    teams.blue.balance = 0;
+                    break;
+                case 'green':
+                    teams.green.bid += teams.green.balance;
+                    poolBalance += teams.green.balance;
+                    teams.green.balance = 0;
+                    break;
+                case 'yellow':
+                    teams.yellow.bid += teams.yellow.balance;
+                    poolBalance += teams.yellow.balance;
+                    teams.yellow.balance = 0;
+                    break;
+                default:
+                    alert("Nieznana drużyna");
+                    return;
+            }
+            updateBalances();
+            playSound('sounds/po_licytacji.mp3');
+            endBidding();
+        }
+
+        function updateBid(event, team) {
+            if (event.key === "Enter") {
+                let newBid = parseInt(event.target.value);
+                if (isNaN(newBid) || newBid < 0) {
+                    alert("Nieprawidłowa kwota licytacji");
+                    return;
+                }
+                let previousBid = teams[team].bid;
+                if (previousBid > 0) {
+                    teams[team].balance += previousBid;
+                    poolBalance -= previousBid;
+                }
+                let teamBalance = teams[team].balance;
+                if (teamBalance < newBid) {
+                    alert("Saldo drużyny jest niewystarczające na tę licytację.");
+                    if (previousBid > 0) {
+                        teams[team].balance -= previousBid;
+                        poolBalance += previousBid;
+                    }
+                    updateBalances();
+                    return;
+                }
+                teams[team].balance -= newBid;
+                teams[team].bid = newBid;
+                poolBalance += newBid;
+                updateBalances();
+                playSound('sounds/add_to_pool.mp3');
+            }
+        }
+
+        function updateBalances() {
+            document.getElementById("blueBalance").innerText = teams.blue.balance;
+            document.getElementById("greenBalance").innerText = teams.green.balance;
+            document.getElementById("yellowBalance").innerText = teams.yellow.balance;
+            document.getElementById("poolBalance").innerText = poolBalance;
+            document.getElementById("blueBid").value = teams.blue.bid;
+            document.getElementById("greenBid").value = teams.green.bid;
+            document.getElementById("yellowBid").value = teams.yellow.bid;
+        }
+
+        function getTeamName(team) {
+            switch(team) {
+                case 'blue':
+                    return 'Niebiescy';
+                case 'green':
+                    return 'Zieloni';
+                case 'yellow':
+                    return 'Żółci';
+                default:
+                    return 'Nieznana drużyna';
+            }
+        }
+
+        function startAuction() {
+            playSound('sounds/licytacja.mp3');
+        }
+
+        function deduct500FromBids() {
+            playSound('sounds/change_pool.mp3');
+            let teamsList = ['blue', 'green', 'yellow'];
+            teamsList.forEach(team => {
+                if (teams[team].balance >= 500) {
+                    teams[team].balance -= 500;
+                    teams[team].bid += 500;
+                    poolBalance += 500;
+                } else {
+                    alert(`Saldo drużyny ${getTeamName(team)} jest niewystarczające, aby odjąć 500 zł.`);
+                }
+            });
+            updateBalances();
+            playSound('sounds/change_pool.mp3');
+        }
+
+        function addToPool() {
+            let amountStr = prompt("Wprowadź kwotę, którą chcesz dodać do puli:");
+            if (amountStr === null) {
+                return;
+            }
+            let amount = parseFloat(amountStr);
+            if (isNaN(amount) || amount <= 0) {
+                alert("Nieprawidłowa kwota. Proszę wprowadzić dodatnią liczbę.");
+                return;
+            }
+            poolBalance += amount;
+            updateBalances();
+            playSound('sounds/add_to_pool.mp3');
+            alert(`Dodano ${amount} zł do puli.`);
+        }
+
+        function startCountdown() {
+            let countdownDisplay = document.getElementById("countdownDisplay");
+            let timeLeft = 60;
+            playSound('sounds/odliczanie.mp3');
+            if (countdownTimer) {
+                alert("Odliczanie już jest uruchomione.");
+                return;
+            }
+            countdownDisplay.innerText = `Czas: ${timeLeft} sekund`;
+            countdownTimer = setInterval(() => {
+                timeLeft--;
+                countdownDisplay.innerText = `Czas: ${timeLeft} sekund`;
+                if (timeLeft <= 0) {
+                    clearInterval(countdownTimer);
+                    countdownTimer = null;
+                    countdownDisplay.innerText = "Czas: 0 sekund";
+                    alert("Odliczanie zakończone.");
+                }
+            }, 1000);
+        }
+
+        window.onload = function() {
+            initializeQuestions();
+        };
+    </script>
+</body>
+</html>
