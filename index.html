@@ -697,31 +697,32 @@
             document.getElementById("spinButton").disabled = false;
         }
 
-        function vaBanque(team) {
-            switch(team) {
-                case 'blue':
-                    teams.blue.bid += teams.blue.balance;
-                    poolBalance += teams.blue.balance;
-                    teams.blue.balance = 0;
-                    break;
-                case 'green':
-                    teams.green.bid += teams.green.balance;
-                    poolBalance += teams.green.balance;
-                    teams.green.balance = 0;
-                    break;
-                case 'yellow':
-                    teams.yellow.bid += teams.yellow.balance;
-                    poolBalance += teams.yellow.balance;
-                    teams.yellow.balance = 0;
-                    break;
-                default:
-                    alert("Nieznana drużyna");
-                    return;
-            }
-            updateBalances();
-            playSound('sounds/po_licytacji.mp3');
-            endBidding();
-        }
+       function vaBanque(team) {
+    switch (team) {
+        case 'blue':
+            teams.blue.bid += teams.blue.balance;
+            poolBalance += teams.blue.balance;
+            teams.blue.balance = 0;
+            break;
+        case 'green':
+            teams.green.bid += teams.green.balance;
+            poolBalance += teams.green.balance;
+            teams.green.balance = 0;
+            break;
+        case 'yellow':
+            teams.yellow.bid += teams.yellow.balance;
+            poolBalance += teams.yellow.balance;
+            teams.yellow.balance = 0;
+            break;
+        default:
+            alert("Nieznana drużyna");
+            return;
+    }
+    updateBalances();
+    playSound('sounds/po_licytacji.mp3');
+    endBidding();
+}
+
 
         function updateBid(event, team) {
             if (event.key === "Enter") {
@@ -753,15 +754,16 @@
             }
         }
 
-        function updateBalances() {
-            document.getElementById("blueBalance").innerText = teams.blue.balance;
-            document.getElementById("greenBalance").innerText = teams.green.balance;
-            document.getElementById("yellowBalance").innerText = teams.yellow.balance;
-            document.getElementById("poolBalance").innerText = poolBalance;
-            document.getElementById("blueBid").value = teams.blue.bid;
-            document.getElementById("greenBid").value = teams.green.bid;
-            document.getElementById("yellowBid").value = teams.yellow.bid;
-        }
+function updateBalances() {
+    document.getElementById("blueBalance").innerText = teams.blue.balance;
+    document.getElementById("greenBalance").innerText = teams.green.balance;
+    document.getElementById("yellowBalance").innerText = teams.yellow.balance;
+    document.getElementById("poolBalance").innerText = poolBalance;
+    document.getElementById("blueBid").value = teams.blue.bid;
+    document.getElementById("greenBid").value = teams.green.bid;
+    document.getElementById("yellowBid").value = teams.yellow.bid;
+}
+
 
         function getTeamName(team) {
             switch(team) {
@@ -884,31 +886,33 @@
         }
 
         // MODIFICATION: Funkcja do obsługi kliknięć na boxach licytacji
-        function handleBidClick(event, team) {
-            event.preventDefault();
-            if (event.button === 0) { // Left-click: Ustawienie licytacji
-                let amountStr = prompt(`Wprowadź kwotę licytacji dla drużyny ${getTeamName(team)}:`);
-                if (amountStr === null) {
-                    return;
-                }
-                let amount = parseFloat(amountStr);
-                if (isNaN(amount) || amount < 0) {
-                    alert("Nieprawidłowa kwota. Proszę wprowadzić liczbę nieujemną.");
-                    return;
-                }
-                if (teams[team].balance < amount) {
-                    alert(`Saldo drużyny ${getTeamName(team)} jest niewystarczające na tę licytację.`);
-                    return;
-                }
-                // Aktualizacja salda i licytacji
-                teams[team].balance -= amount;
-                poolBalance += amount;
-                teams[team].bid = amount;
-                updateBalances();
-                playSound('sounds/add_to_pool.mp3');
-            }
-            // Możesz dodać obsługę middle-click, jeśli jest potrzebna
+       function handleBidClick(event, team) {
+    event.preventDefault();  // Zapobiega domyślnemu zachowaniu przy kliknięciu
+    if (event.button === 0) {  // Lewy przycisk myszy: zwykła licytacja
+        let amountStr = prompt(`Wprowadź kwotę licytacji dla drużyny ${getTeamName(team)}:`);
+        if (amountStr === null) {
+            return;
         }
+        let amount = parseFloat(amountStr);
+        if (isNaN(amount) || amount < 0) {
+            alert("Nieprawidłowa kwota. Proszę wprowadzić liczbę nieujemną.");
+            return;
+        }
+        if (teams[team].balance < amount) {
+            alert(`Saldo drużyny ${getTeamName(team)} jest niewystarczające na tę licytację.`);
+            return;
+        }
+        // Aktualizacja salda i licytacji
+        teams[team].balance -= amount;
+        poolBalance += amount;
+        teams[team].bid = amount;
+        updateBalances();
+        playSound('sounds/add_to_pool.mp3');
+    } else if (event.button === 1) {  // Środkowy przycisk myszy: VA BANQUE
+        vaBanque(team);
+    }
+}
+
 
         // Dodanie nasłuchiwaczy zdarzeń po załadowaniu strony
         window.onload = function() {
@@ -919,10 +923,13 @@
             document.getElementById("yellowBalanceBox").addEventListener("mousedown", (e) => handleBalanceClick(e, 'team', 'yellow'));
             // Dodanie nasłuchiwaczy do puli
             document.getElementById("poolBalanceBox").addEventListener("mousedown", (e) => handleBalanceClick(e, 'pool'));
-            // MODIFICATION: Dodanie nasłuchiwaczy do boxów licytacji
-            document.getElementById("blueBidBox").addEventListener("mousedown", (e) => handleBidClick(e, 'blue'));
-            document.getElementById("greenBidBox").addEventListener("mousedown", (e) => handleBidClick(e, 'green'));
-            document.getElementById("yellowBidBox").addEventListener("mousedown", (e) => handleBidClick(e, 'yellow'));
+window.onload = function() {
+    // Dodanie nasłuchiwaczy do boxów licytacji
+    document.getElementById("blueBidBox").addEventListener("mousedown", (e) => handleBidClick(e, 'blue'));
+    document.getElementById("greenBidBox").addEventListener("mousedown", (e) => handleBidClick(e, 'green'));
+    document.getElementById("yellowBidBox").addEventListener("mousedown", (e) => handleBidClick(e, 'yellow'));
+};
+
         };
     </script>
 </body>
