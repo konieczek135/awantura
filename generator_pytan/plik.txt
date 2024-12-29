@@ -1,0 +1,498 @@
+Anatomia i Medycyna:Jaki nerw jest odpowiedzialny za unerwienie czuciowe przednich 2/3 języka oraz za unerwienie smakowe przednich 2/3 języka (z wyjątkiem kubków smakowych brodawek okolonych)?:Nerw językowy (V3) (czuciowo) i struna bębenkowa (VII) (smakowo)
+Anatomia i Medycyna:Jaki mechanizm odpowiada za utrzymanie stałego przepływu krwi przez mózg w warunkach zmian ciśnienia tętniczego krwi?:Autoregulacja mózgowa (mechanizmy miogenne i metaboliczne)
+Anatomia i Medycyna:Jakie są trzy główne czynniki wpływające na opór naczyniowy obwodowy (TPR)?:Średnica naczyń krwionośnych, lepkość krwi i długość naczyń krwionośnych
+Anatomia i Medycyna:Jaka struktura mózgu łączy obie półkule mózgu i umożliwia wymianę informacji między nimi?:Ciało modzelowate (łac. corpus callosum)
+Anatomia i Medycyna:Jaki hormon jest produkowany przez komórki beta trzustki i jaka jest jego główna funkcja?:Insulina, obniżanie poziomu glukozy we krwi
+Anatomia i Medycyna:Jakie enzymy trawiące białka są produkowane przez trzustkę?:Trypsyna, chymotrypsyna, karboksypeptydaza, elastaza
+Anatomia i Medycyna:Jaka jest definicja prawa Laplace'a w kontekście pęcherzyków płucnych?:Prawo Laplace'a opisuje zależność między ciśnieniem wewnątrz pęcherzyka, napięciem powierzchniowym i promieniem pęcherzyka. Mniejsze pęcherzyki wymagają większego ciśnienia, aby pozostać otwarte, co tłumaczy rolę surfaktantu.
+Anatomia i Medycyna:Jaka jest rola aparatu przykłębuszkowego w regulacji ciśnienia krwi?:Wydzielanie reniny, która inicjuje kaskadę RAA (renina-angiotensyna-aldosteron)
+Anatomia i Medycyna:Jakie są główne typy limfocytów T i jakie pełnią funkcje?:Limfocyty T pomocnicze (CD4+) – aktywacja innych komórek układu odpornościowego: Limfocyty T cytotoksyczne (CD8+) – zabijanie komórek zakażonych wirusami lub nowotworowych
+Anatomia i Medycyna:Jaki jest proces krzepnięcia krwi i jakie czynniki krzepnięcia biorą w nim udział?:Kaskada reakcji, w której biorą udział liczne czynniki krzepnięcia (np. fibrynogen, protrombina, czynniki VIII, IX, X), prowadząca do powstania skrzepu
+Anatomia i Medycyna:Co to jest neoangiogeneza i jaka jest jej rola w rozwoju nowotworów?:Tworzenie nowych naczyń krwionośnych, które zaopatrują guz w tlen i składniki odżywcze, umożliwiając jego wzrost i przerzuty
+Anatomia i Medycyna:Co to jest epigenetyka i jakie czynniki mogą wpływać na zmiany epigenetyczne?:Zmiany ekspresji genów, które nie wynikają ze zmian w sekwencji DNA. Czynniki wpływające to m.in. metylacja DNA, modyfikacje histonów, działanie czynników środowiskowych
+Anatomia i Medycyna:Co to jest biodostępność leku?:Frakcja dawki leku, która dociera do krążenia ogólnego w postaci niezmienionej
+Anatomia i Medycyna:Co to jest zespół DIC (rozsiane krzepnięcie wewnątrznaczyniowe)?:Stan, w którym dochodzi do nadmiernej aktywacji krzepnięcia krwi w drobnych naczyniach, prowadzącej do niedokrwienia narządów i paradoksalnie do krwawień z powodu wyczerpania czynników krzepnięcia
+Anatomia i Medycyna:Jakie są główne mechanizmy oporności bakterii na antybiotyki?:Modyfikacja miejsca docelowego antybiotyku, enzymatyczna inaktywacja antybiotyku, wypompowywanie antybiotyku z komórki, zmiany przepuszczalności błony komórkowej
+Anatomia i Medycyna:Jaki jest mechanizm działania cyjanku?:Blokowanie oksydazy cytochromowej w łańcuchu oddechowym, co uniemożliwia oddychanie komórkowe
+Anatomia i Medycyna:Co to jest efekt Comptona?:Rozproszenie promieniowania rentgenowskiego na elektronach, z przekazaniem części energii elektronowi i zmianą kierunku promieniowania
+Anatomia i Medycyna:Co to jest triada Virchowa i jakie ma znaczenie w kontekście zakrzepicy żył głębokich?:Uszkodzenie ściany naczynia, zwolnienie przepływu krwi i nadkrzepliwość. Są to czynniki predysponujące do zakrzepicy
+Anatomia i Medycyna:Jaki jest mechanizm działania leków znieczulenia ogólnego?:Złożony i nie do końca poznany, obejmuje modulację kanałów jonowych, interakcje z receptorami GABA i NMDA
+Anatomia i Medycyna:Jaka jest rola neuroprzekaźników dopaminy i serotoniny w depresji?:Zaburzenia w przekaźnictwie dopaminergicznym i serotoninergicznym są związane z objawami depresji
+Anatomia i Medycyna:Co to jest jaskra i jakie są jej główne typy?:Grupa chorób charakteryzujących się uszkodzeniem nerwu wzrokowego, najczęściej związane z podwyższonym ciśnieniem wewnątrzgałkowym. Główne typy to jaskra otwartego kąta i jaskra zamkniętego kąta
+Anatomia i Medycyna:Jaka jest rola melanocytów w skórze?:Produkcja melaniny, barwnika odpowiedzialnego za kolor skóry i ochronę przed promieniowaniem UV
+Anatomia i Medycyna:Co to jest złamanie Collesa?:Złamanie dalszej nasady kości promieniowej z przemieszczeniem odłamka dalszego grzbietowo
+Anatomia i Medycyna:Co to jest zespół nagłej śmierci niemowląt (SIDS)?:Nagła i niewyjaśniona śmierć niemowlęcia poniżej 1 roku życia
+Anatomia i Medycyna:Jakie są objawy wstrząsu anafilaktycznego?:Reakcja alergiczna uogólniona, objawiająca się m.in. pokrzywką, obrzękiem naczynioruchowym, dusznością, spadkiem ciśnienia krwi, utratą świadomości
+Motoryzacja:Jaka jest zasada działania systemu zmiennych faz rozrządu VVT-i w silnikach Toyoty?:System VVT-i (Variable Valve Timing-intelligent) steruje czasem otwarcia i zamknięcia zaworów w zależności od obciążenia i prędkości obrotowej silnika, optymalizując napełnianie cylindrów i poprawiając elastyczność oraz oszczędność paliwa.
+Motoryzacja:Co oznacza skrót DSG w kontekście skrzyń biegów?:Direct-Shift Gearbox (dwusprzęgłowa skrzynia biegów)
+Motoryzacja:Jaka jest różnica między turbosprężarką a kompresorem mechanicznym (sprężarką Rootsa)?:Turbosprężarka jest napędzana spalinami, wykorzystując energię spalin, natomiast kompresor mechaniczny jest napędzany bezpośrednio od wału korbowego silnika.
+Motoryzacja:Co to jest moment bezwładności i jaki ma wpływ na zachowanie samochodu?:Moment bezwładności to opór ciała przed zmianą jego ruchu obrotowego. W samochodzie wpływa na przyspieszenie, hamowanie i zwrotność.
+Motoryzacja:Wyjaśnij zasadę działania systemu ABS (Anti-lock Braking System).:ABS zapobiega blokowaniu kół podczas hamowania, umożliwiając kierowcy zachowanie sterowności pojazdu i skrócenie drogi hamowania w niektórych warunkach.
+Motoryzacja:Co to jest system ESP (Electronic Stability Program) i jaką rolę pełni?:ESP (elektroniczny program stabilizacji) zapobiega poślizgowi bocznemu poprzez selektywne hamowanie poszczególnych kół i redukcję mocy silnika.
+Motoryzacja:Jaka jest różnica między napędem na przednie koła (FWD), tylne koła (RWD) i napędem na wszystkie koła (AWD/4WD)?:FWD napędza przednie koła, RWD tylne, a AWD/4WD napędza wszystkie koła, zapewniając lepszą trakcję w trudnych warunkach.
+Motoryzacja:Co to jest common rail i w jakich silnikach jest stosowany?:Common rail to system bezpośredniego wtrysku paliwa stosowany w silnikach wysokoprężnych (Diesla).
+Motoryzacja:Co oznacza termin „downsizing” w motoryzacji?:Downsizing to trend zmniejszania pojemności silników przy jednoczesnym zwiększaniu ich mocy za pomocą turbodoładowania lub innych technologii.
+Motoryzacja:Jaki jest cel stosowania filtra cząstek stałych (DPF/FAP) w silnikach Diesla?:Filtr cząstek stałych (DPF/FAP) zatrzymuje cząstki sadzy ze spalin, redukując emisję zanieczyszczeń.
+Motoryzacja:Co to jest AdBlue i do czego służy?:AdBlue to roztwór mocznika w wodzie, stosowany w systemach selektywnej redukcji katalitycznej (SCR) w silnikach Diesla w celu redukcji emisji tlenków azotu (NOx).
+Motoryzacja:Wyjaśnij zasadę działania systemu start-stop.:System start-stop automatycznie wyłącza silnik podczas postoju (np. na światłach) i uruchamia go ponownie po naciśnięciu pedału gazu lub sprzęgła, redukując zużycie paliwa i emisję spalin.
+Motoryzacja:Co to jest hybryda plug-in (PHEV)?:Hybryda plug-in (PHEV) to pojazd hybrydowy, który można ładować z zewnętrznego źródła zasilania (np. z gniazdka elektrycznego).
+Motoryzacja:Jaka jest różnica między silnikiem Otto a silnikiem Diesla?:Silnik Otto zapala mieszankę paliwowo-powietrzną za pomocą iskry (zapłon iskrowy), natomiast silnik Diesla poprzez samozapłon sprężonego powietrza.
+Motoryzacja:Co to jest geometria zmiennej turbiny (VGT)?:Geometria zmiennej turbiny (VGT) pozwala na optymalizację pracy turbosprężarki w różnych zakresach obrotów silnika poprzez zmianę kąta nachylenia łopatek kierujących spaliny na wirnik turbiny.
+Motoryzacja:Jaki jest wpływ współczynnika oporu powietrza (Cx) na zużycie paliwa?:Im niższy współczynnik Cx, tym mniejszy opór powietrza, a co za tym idzie, mniejsze zużycie paliwa, szczególnie przy wyższych prędkościach.
+Motoryzacja:Co to jest zawieszenie wielowahaczowe i jakie są jego zalety?:Zawieszenie wielowahaczowe charakteryzuje się większą precyzją prowadzenia i lepszym komfortem jazdy w porównaniu do prostszych rozwiązań, takich jak np. kolumna MacPhersona.
+Motoryzacja:Co to jest układ kierowniczy ze wspomaganiem elektrohydraulicznym (EHPS)?:EHPS łączy zalety wspomagania hydraulicznego i elektrycznego, oferując precyzyjne sterowanie i mniejsze zużycie energii w porównaniu do tradycyjnego układu hydraulicznego.
+Motoryzacja:Jaka jest rola czujników parkowania?:Czujniki parkowania ułatwiają manewrowanie pojazdem poprzez informowanie kierowcy o odległości od przeszkód za pomocą sygnałów dźwiękowych lub wizualnych.
+Motoryzacja:Co to jest tempomat adaptacyjny (ACC)?:Tempomat adaptacyjny (ACC) automatycznie dostosowuje prędkość pojazdu do prędkości poprzedzającego pojazdu, utrzymując bezpieczny odstęp.
+Motoryzacja:Jaki jest cel stosowania systemów monitorowania martwego pola (Blind Spot Monitoring)?:Systemy monitorowania martwego pola ostrzegają kierowcę o obecności pojazdów w martwym polu widzenia lusterek bocznych.
+Motoryzacja:Co to jest system Lane Keeping Assist (LKA)?:System Lane Keeping Assist (LKA) pomaga utrzymać pojazd na właściwym pasie ruchu poprzez delikatne korekty toru jazdy.
+Motoryzacja:Jaka jest różnica między oponami letnimi, zimowymi i całorocznymi?:Opony letnie są zoptymalizowane do pracy w wysokich temperaturach, zimowe do niskich i warunków zimowych, a całoroczne stanowią kompromis między nimi.
+Motoryzacja:Co to jest homologacja pojazdu?:Homologacja to proces uzyskania formalnego zatwierdzenia, że dany pojazd spełnia określone normy i przepisy bezpieczeństwa oraz ochrony środowiska.
+Chemia:Wyjaśnij mechanizm reakcji SN1 i SN2, uwzględniając stereochemię produktów.:SN1 (substytucja nukleofilowa unimolekularna) przebiega dwuetapowo z karbokationem jako produktem pośrednim, co prowadzi do racemizacji (mieszaniny enancjomerów). SN2 (substytucja nukleofilowa bimolekularna) przebiega jednoetapowo z inwersją Waldena (odwrócenie konfiguracji).
+Chemia:Opisz mechanizm reakcji aldolowej i kondensacji aldolowej.:Reakcja aldolowa polega na addycji enolanu (lub enolu) do grupy karbonylowej aldehydu lub ketonu, tworząc β-hydroksyaldehyd lub β-hydroksyketon. Kondensacja aldolowa to eliminacja wody z produktu aldolowego, prowadząca do powstania α,β-nienasyconego związku karbonylowego.
+Chemia:Wyjaśnij różnicę między entalpią swobodną Gibbsa (ΔG), entalpią (ΔH) i entropią (ΔS).:Entalpia (ΔH) to zmiana ciepła reakcji. Entropia (ΔS) to miara nieuporządkowania układu. Entalpia swobodna Gibbsa (ΔG) łączy te wielkości: ΔG = ΔH - TΔS. Określa ona samorzutność procesu (ΔG < 0 - proces samorzutny).
+Chemia:Opisz mechanizm reakcji Grignarda.:Reakcja Grignarda polega na reakcji związku Grignarda (RMgX) z związkiem karbonylowym (aldehydem, ketonem, estrem), co prowadzi do powstania alkoholu.
+Chemia:Wyjaśnij pojęcie efektu indukcyjnego i efektu mezomerycznego.:Efekt indukcyjny to polaryzacja wiązania σ wywołana różnicą elektroujemności atomów. Efekt mezomeryczny (rezonansowy) to delokalizacja elektronów π w układzie sprzężonym.
+Chemia:Opisz budowę i właściwości kompleksów metali przejściowych, uwzględniając teorię pola krystalicznego (CFT).:Kompleksy metali przejściowych charakteryzują się obecnością wiązań koordynacyjnych. CFT opisuje oddziaływanie jonu metalu z ligandami jako oddziaływanie elektrostatyczne, co prowadzi do rozszczepienia poziomów energetycznych orbitali d.
+Chemia:Wyjaśnij pojęcie reguły Hückla i jej zastosowanie w chemii organicznej.:Reguła Hückla (4n+2) π elektronów określa aromatyczność związków cyklicznych, płaskich, sprzężonych.
+Chemia:Opisz mechanizm reakcji Friedela-Craftsa (alkilowanie i acylowanie).:Alkiliowanie Friedela-Craftsa polega na reakcji halogenku alkilu z arenem w obecności katalizatora kwasowego (np. AlCl3). Acylowanie Friedela-Craftsa polega na reakcji chlorku kwasowego z arenem w obecności katalizatora kwasowego.
+Chemia:Wyjaśnij różnicę między izomerami konstytucyjnymi a stereoizomerami.:Izomery konstytucyjne mają ten sam wzór sumaryczny, ale różną kolejność wiązań. Stereoizomery mają ten sam wzór sumaryczny i kolejność wiązań, ale różnią się przestrzennym ułożeniem atomów.
+Chemia:Opisz mechanizm reakcji Wittiga.:Reakcja Wittiga polega na reakcji aldehydu lub ketonu z ylidem fosforanu, co prowadzi do powstania alkenu.
+Chemia:Wyjaśnij pojęcie efektu stereoelektronicznego.:Efekty stereoelektroniczne to wpływ przestrzennego ułożenia atomów i grup na reaktywność cząsteczek.
+Chemia:Opisz mechanizm reakcji Dielsa-Aldera.:Reakcja Dielsa-Aldera to reakcja cykloaddycji [4+2] dienu z dienofilem, prowadząca do powstania pierścienia sześcioczłonowego.
+Chemia:Wyjaśnij pojęcie chiralności i enancjomerów.:Chiralność to brak płaszczyzny symetrii w cząsteczce. Enancjomery to stereoizomery będące swoimi lustrzanymi odbiciami, nie dającymi się nałożyć.
+Chemia:Opisz mechanizm reakcji E1 i E2.:E1 (eliminacja unimolekularna) przebiega dwuetapowo z karbokationem jako produktem pośrednim. E2 (eliminacja bimolekularna) przebiega jednoetapowo.
+Chemia:Wyjaśnij pojęcie potencjału standardowego i jego zastosowanie w elektrochemii.:Potencjał standardowy to potencjał elektrody mierzony w warunkach standardowych. Umożliwia przewidywanie kierunku reakcji redoks.
+Chemia:Opisz mechanizm polimeryzacji rodnikowej.:Polimeryzacja rodnikowa przebiega z udziałem wolnych rodników, inicjatorów, etapów inicjacji, propagacji i terminacji.
+Chemia:Wyjaśnij pojęcie efektu solnego.:Efekt solny to wpływ stężenia jonów w roztworze na aktywność jonów i stałe równowagi.
+Chemia:Opisz mechanizm reakcji estryfikacji Fischera.:Estryfikacja Fischera to reakcja kwasu karboksylowego z alkoholem w obecności katalizatora kwasowego, prowadząca do powstania estru.
+Chemia:Wyjaśnij pojęcie reguły Markownikowa i reguły Zajcewa.:Reguła Markownikowa mówi, że atom wodoru przyłącza się do atomu węgla związanego z większą liczbą atomów wodoru. Reguła Zajcewa mówi, że w reakcji eliminacji powstaje alken o bardziej podstawionym wiązaniu podwójnym.
+Chemia:Opisz mechanizm reakcji addycji elektrofilowej do alkenów.:Addycja elektrofilowa polega na ataku elektrofila (np. Br2) na wiązanie π alkenu.
+Chemia:Wyjaśnij pojęcie liczby oktanowej i liczby cetanowej.:Liczba oktanowa charakteryzuje odporność benzyny na spalanie stukowe. Liczba cetanowa charakteryzuje zdolność oleju napędowego do samozapłonu.
+Chemia:Opisz mechanizm reakcji cyklizacji Fischera.:Synteza indoli.
+Chemia:Wyjaśnij pojęcie chromatografii gazowej (GC) i chromatografii cieczowej wysokosprawnej (HPLC).:GC służy do rozdzielania i analizy lotnych substancji. HPLC służy do rozdzielania i analizy substancji w fazie ciekłej.
+Chemia:Opisz mechanizm reakcji Cannizzaro.:Dysproporcjonowanie aldehydów bez atomów wodoru α w środowisku zasadowym.
+Chemia:Wyjaśnij pojęcie prawa Hessa.:Całkowita zmiana entalpii reakcji jest sumą zmian entalpii poszczególnych etapów reakcji.
+Wędkarstwo:Wyjaśnij różnicę między wędkarstwem muchowym a spinningowym, uwzględniając technikę i sprzęt.:Wędkarstwo muchowe polega na łowieniu ryb za pomocą sztucznych much, imitujących owady, przy użyciu specjalnej wędki muchowej, linki muchowej i kołowrotka muchowego. Spinning polega na łowieniu ryb drapieżnych za pomocą sztucznych przynęt (np. błystki, woblery, gumy), prowadzonych w wodzie za pomocą wędki spinningowej i kołowrotka.
+Wędkarstwo:Opisz technikę łowienia metodą "drop shot".:Metoda drop shot polega na zamocowaniu ciężarka na końcu żyłki głównej, a haczyka z przynętą (zwykle gumową) powyżej, na krótkim przyponie. Pozwala to na prezentację przynęty tuż nad dnem, co jest skuteczne przy łowieniu ryb żerujących przy dnie.
+Wędkarstwo:Co to jest "przypon strzałowy" i kiedy się go stosuje?:Przypon strzałowy to odcinek żyłki lub plecionki o większej wytrzymałości niż żyłka główna, stosowany przed przynętą, aby chronić żyłkę główną przed przetarciem o dno, zaczepy lub zęby ryb drapieżnych.
+Wędkarstwo:Wyjaśnij pojęcie "wypuszczania ryb" (catch and release) i jego znaczenie dla ochrony ichtiofauny.:"Wypuszczanie ryb" to praktyka polegająca na wypuszczaniu złowionych ryb z powrotem do wody po ich złowieniu, zmierzeniu, zważeniu i ewentualnym sfotografowaniu. Ma to na celu ochronę populacji ryb i zachowanie równowagi w ekosystemie wodnym.
+Wędkarstwo:Opisz różne rodzaje węzłów wędkarskich i ich zastosowanie (np. węzeł Palomara, węzeł Albrighta, węzeł Grinner).:Węzeł Palomara jest mocnym węzłem do łączenia żyłki z agrafką lub krętlikiem. Węzeł Albrighta służy do łączenia żyłek o różnej średnicy lub żyłki z plecionką. Węzeł Grinner jest uniwersalnym węzłem do wiązania haczyków.
+Wędkarstwo:Co to jest "zanęta" i jakie są jej rodzaje?:Zanęta to mieszanka składników spożywczych, mająca na celu zwabienie ryb w łowisko. Wyróżnia się zanęty sypkie, klejone, pellety, kulki proteinowe, ziarna.
+Wędkarstwo:Wyjaśnij pojęcie "echa sondy" i ich interpretację w kontekście lokalizacji ryb i struktury dna.:Echa sondy to odbicia fal dźwiękowych wysyłanych przez echosondę od obiektów podwodnych. Ich interpretacja pozwala na określenie głębokości, ukształtowania dna, obecności ryb i innych obiektów (np. roślinność, zatopione przedmioty).
+Wędkarstwo:Opisz technikę łowienia metodą "gruntową" (feeder, method feeder).:Metoda gruntowa polega na łowieniu ryb żerujących przy dnie za pomocą zestawu z koszyczkiem zanętowym lub sprężyną zanętową.
+Wędkarstwo:Co to jest "plecionka" i jakie są jej zalety w porównaniu do żyłki monofilamentowej?:Plecionka to linka wędkarska wykonana z wielu splecionych włókien. Charakteryzuje się brakiem rozciągliwości, dużą wytrzymałością i czułością, co ułatwia detekcję brań.
+Wędkarstwo:Wyjaśnij pojęcie "test krzywej ugięcia" wędki (test curve).:Test krzywej ugięcia (test curve) określa siłę, jaką należy przyłożyć do szczytówki wędki, aby ugięła się ona pod kątem 90 stopni. Wyrażana jest w funtach (lbs) i informuje o mocy wędki.
+Wędkarstwo:Opisz różne rodzaje spławików i ich zastosowanie (np. spławik stały, przelotowy, samozatrzaskowy).:Spławik stały jest zamocowany na żyłce w jednym miejscu. Spławik przelotowy porusza się po żyłce. Spławik samozatrzaskowy sygnalizuje branie poprzez zatrzaśnięcie się.
+Wędkarstwo:Co to jest "kołowrotek ze "wolnym biegiem"" (baitrunner)?:Kołowrotek z "wolnym biegiem" (baitrunner) posiada dodatkowy hamulec, który pozwala rybie na swobodny odjazd po braniu, zanim wędkarz zaciśnie hamulec główny. Stosowany głównie przy połowie karpi.
+Wędkarstwo:Wyjaśnij pojęcie "holograficzne przynęty" i ich działanie.:Holograficzne przynęty posiadają specjalną powłokę, która odbija światło w różny sposób, imitując łuski ryb i wabiąc drapieżniki.
+Wędkarstwo:Opisz technikę łowienia "na żywca" i jej etyczne aspekty.:Łowienie "na żywca" polega na użyciu żywej ryby jako przynęty. Budzi kontrowersje etyczne związane z dobrostanem zwierząt.
+Wędkarstwo:Co to jest "fluorocarbon" i jakie są jego właściwości jako materiału na przypony?:Fluorocarbon jest materiałem o wysokiej odporności na przetarcia, niewidocznym w wodzie i o dużej gęstości, co ułatwia tonięcie zestawu.
+Wędkarstwo:Wyjaśnij pojęcie "łowiska specjalnego" i jakie obowiązują na nim zasady.:Łowisko specjalne to akwen, na którym obowiązują specyficzne zasady połowu, np. ograniczenia ilościowe, wymiarowe, okresy ochronne, metody połowu.
+Wędkarstwo:Opisz technikę "trollingu" i jakie gatunki ryb są najczęściej łowione tą metodą.:Trolling polega na holowaniu przynęty za łodzią. Stosowany jest głównie do połowu ryb drapieżnych, takich jak szczupak, sandacz, troć.
+Wędkarstwo:Co to jest "eutrofizacja" i jaki ma wpływ na rybostan?:Eutrofizacja to proces nadmiernego wzbogacania wód w substancje odżywcze (głównie azot i fosfor), co prowadzi do zakwitów glonów, deficytu tlenu i pogorszenia warunków życia ryb.
+Wędkarstwo:Wyjaśnij pojęcie "biologia ryb" i jej znaczenie dla wędkarstwa.:Biologia ryb obejmuje wiedzę o ich anatomii, fizjologii, zachowaniu, rozrodzie, preferencjach środowiskowych i pokarmowych. Znajomość biologii ryb jest kluczowa dla skutecznego i etycznego wędkarstwa.
+Wędkarstwo:Opisz różne rodzaje haczyków i ich zastosowanie (np. haczyki z zadziorem, bezzadziorowe, karpiowe, muchowe).:Haczyki z zadziorem lepiej trzymają rybę, ale trudniej je wyjąć. Haczyki bezzadziorowe są bardziej etyczne i łatwiejsze do wyjęcia. Haczyki karpiowe charakteryzują się specyficznym kształtem i wytrzymałością. Haczyki muchowe są małe i lekkie.
+Wędkarstwo:Co to jest "prawo wędkarskie" i jakie regulacje obowiązują w Polsce?:Prawo wędkarskie reguluje zasady amatorskiego połowu ryb w Polsce, m.in. wymiary i okresy ochronne ryb, limity połowu, uprawnienia wędkarskie.
+Wędkarstwo:Wyjaśnij pojęcie "presja wędkarska" i jej wpływ na populacje ryb.:Presja wędkarska to intensywność połowów na danym akwenie. Nadmierna presja może prowadzić do zmniejszenia populacji ryb i zaburzenia równowagi ekosystemu.
+Wędkarstwo:Opisz technikę łowienia "na spinning z opadu".:Technika ta polega na rzucaniu przynęty i pozwoleniu jej na swobodny opad do dna
+Sportowe mistrzostwa świata:W których latach odbyły się pierwsze nowożytne Letnie i Zimowe Igrzyska Olimpijskie?:Letnie:1896 (Ateny), Zimowe: 1924 (Chamonix)
+Sportowe mistrzostwa świata:Jaka jest różnica między Mistrzostwami Świata FIFA a Pucharem Konfederacji FIFA?:Mistrzostwa Świata FIFA to turniej reprezentacji narodowych rozgrywany co 4 lata. Puchar Konfederacji FIFA to turniej poprzedzający Mistrzostwa Świata, w którym biorą udział zwycięzcy kontynentalnych pucharów, aktualny mistrz świata i gospodarz kolejnych mistrzostw świata.
+Sportowe mistrzostwa świata:Wymień dyscypliny wchodzące w skład lekkoatletycznych Mistrzostw Świata.:Biegi (krótkie, średnie, długie, sztafety, przez płotki), skoki (w dal, wzwyż, o tyczce, trójskok), rzuty (dysk, młot, oszczep, kula), chód sportowy, wieloboje (dziesięciobój mężczyzn, siedmiobój kobiet).
+Sportowe mistrzostwa świata:Co to jest "Wielki Szlem" w tenisie?:Zdobycie wszystkich czterech najważniejszych turniejów tenisowych w jednym roku kalendarzowym: Australian Open, French Open, Wimbledon i US Open.
+Sportowe mistrzostwa świata:W jakich miastach odbyły się Mistrzostwa Świata w Piłce Nożnej w 2018 i 2022 roku?:2018: Rosja (11 miast), 2022: Katar (5 miast)
+Sportowe mistrzostwa świata:Wyjaśnij pojęcie "Triple Crown" w wyścigach konnych.:Zwycięstwo w trzech najważniejszych wyścigach konnych w danym kraju w jednym roku: np. w USA: Kentucky Derby, Preakness Stakes i Belmont Stakes: w Wielkiej Brytanii: 2000 Guineas Stakes, Epsom Derby i St. Leger Stakes.
+Sportowe mistrzostwa świata:Ile razy Polska zdobyła złoty medal na Mistrzostwach Świata w Piłce Siatkowej Mężczyzn?:3 razy (1974, 2014, 2018)
+Sportowe mistrzostwa świata:Wymień dyscypliny wchodzące w skład Zimowych Igrzysk Olimpijskich.:Narciarstwo alpejskie, narciarstwo klasyczne (biegi narciarskie, skoki narciarskie, kombinacja norweska), biathlon, łyżwiarstwo szybkie, łyżwiarstwo figurowe, short track, hokej na lodzie, curling, bobsleje, saneczkarstwo, skeleton.
+Sportowe mistrzostwa świata:Co to jest "Ryder Cup" w golfie?:Mecz golfowy pomiędzy drużynami Stanów Zjednoczonych i Europy, rozgrywany co dwa lata.
+Sportowe mistrzostwa świata:W jakich latach odbyły się pierwsze Mistrzostwa Świata w Koszykówce Mężczyzn i Kobiet?:Mężczyzn: 1950, Kobiet: 1953
+Sportowe mistrzostwa świata:Wyjaśnij pojęcie "Grand Tour" w kolarstwie szosowym.:Trzy najważniejsze wieloetapowe wyścigi kolarskie: Tour de France, Giro d'Italia i Vuelta a España.
+Sportowe mistrzostwa świata:Ile razy Brazylia zdobyła Mistrzostwo Świata w Piłce Nożnej?:5 razy (1958, 1962, 1970, 1994, 2002)
+Sportowe mistrzostwa świata:Wymień style pływackie rozgrywane na Mistrzostwach Świata w Pływaniu.:Styl dowolny, styl grzbietowy, styl klasyczny (żabka), styl motylkowy.
+Sportowe mistrzostwa świata:Co to jest "Super Bowl" w futbolu amerykańskim?:Mecz finałowy o mistrzostwo ligi NFL (National Football League).
+Sportowe mistrzostwa świata:W jakich miastach odbyły się Letnie Igrzyska Olimpijskie w 2012 i 2016 roku?:2012: Londyn, 2016: Rio de Janeiro
+Sportowe mistrzostwa świata:Wyjaśnij pojęcie "Formuła 1" i opisz jej strukturę.:Formuła 1 to seria wyścigów samochodowych, w których biorą udział bolidy jednomiejscowe. Sezon składa się z serii Grand Prix rozgrywanych na różnych torach na całym świecie.
+Sportowe mistrzostwa świata:Ile razy Stany Zjednoczone zdobyły złoty medal na Mistrzostwach Świata w Koszykówce Mężczyzn?:5 razy
+Sportowe mistrzostwa świata:Wymień konkurencje wchodzące w skład gimnastyki sportowej na Mistrzostwach Świata.:Mężczyźni: ćwiczenia wolne, koń z łękami, kółka, skok, poręcze, drążek. Kobiety: skok, poręcze asymetryczne, równoważnia, ćwiczenia wolne.
+Sportowe mistrzostwa świata:Co to jest "Puchar Świata w Rugby"?:Międzynarodowy turniej rugby union, w którym biorą udział reprezentacje narodowe.
+Sportowe mistrzostwa świata:W jakich latach odbyły się Zimowe Igrzyska Olimpijskie w 2014 i 2018 roku?:2014: Soczi, 2018: Pjongczang
+Sportowe mistrzostwa świata:Wyjaśnij pojęcie "Tour de Pologne".:Wieloetapowy wyścig kolarski rozgrywany w Polsce.
+Sportowe mistrzostwa świata:Ile razy Polska była gospodarzem Mistrzostw Świata w Piłce Siatkowej Mężczyzn?:3 razy (1982, 2014, 2022 - współgospodarz ze Słowenią)
+Sportowe mistrzostwa świata:Wymień style walki wchodzące w skład Mistrzostw Świata w Zapasach.:Styl klasyczny i styl wolny.
+Sportowe mistrzostwa świata:Co to jest "World Series" w baseballu?:Mecz finałowy o mistrzostwo ligi MLB (Major League Baseball).
+Sportowe mistrzostwa świata:W jakich miastach odbędą się Letnie Igrzyska Olimpijskie w 2024 i 2028 roku?:2024: Paryż, 2028: Los Angeles
+Matematyka:Udowodnij, że suma kątów w trójkącie wynosi 180 stopni.:Dowód można przeprowadzić, rysując prostą równoległą do jednego z boków trójkąta i korzystając z własności kątów naprzemianległych i odpowiadających.
+Matematyka:Wyznacz ogólne rozwiązanie równania różniczkowego liniowego drugiego rzędu o stałych współczynnikach: y'' + ay' + by = 0.:Rozwiązanie zależy od delty (Δ = a² - 4b). Dla Δ > 0: y = C₁e^(r₁x) + C₂e^(r₂x), gdzie r₁, r₂ to pierwiastki równania charakterystycznego. Dla Δ = 0: y = (C₁ + C₂x)e^(rx). Dla Δ < 0: y = e^(αx)(C₁cos(βx) + C₂sin(βx)), gdzie α i β to część rzeczywista i urojona pierwiastków zespolonych.
+Matematyka:Sformułuj i udowodnij twierdzenie Pitagorasa.:a² + b² = c², gdzie a i b to długości przyprostokątnych, a c to długość przeciwprostokątnej w trójkącie prostokątnym. Dowód można przeprowadzić geometrycznie, np. przez porównanie pól kwadratów zbudowanych na bokach trójkąta.
+Matematyka:Wyznacz transformatę Laplace'a funkcji f(t) = sin(at).:F(s) = a / (s² + a²)
+Matematyka:Oblicz całkę ∫(1/(x² + a²)) dx.:(1/a)arctan(x/a) + C
+Matematyka:Wykaż, że √2 jest liczbą niewymierną.:Dowód przez sprowadzenie do sprzeczności. Załóżmy, że √2 = p/q, gdzie p i q są liczbami całkowitymi względnie pierwszymi. Wtedy 2 = p²/q², czyli p² = 2q². Stąd p² jest parzyste, więc p musi być parzyste (p = 2k). Wtedy (2k)² = 2q², czyli 4k² = 2q², a stąd q² = 2k². Zatem q też musi być parzyste. To jest sprzeczność z założeniem, że p i q są względnie pierwsze.
+Matematyka:Zdefiniuj przestrzeń wektorową i podaj przykłady.:Przestrzeń wektorowa to zbiór V z dwoma działaniami: dodawaniem wektorów i mnożeniem wektora przez skalar, spełniającymi 8 aksjomatów. Przykład: Rⁿ (zbiór n-elementowych ciągów liczb rzeczywistych).
+Matematyka:Sformułuj twierdzenie o wartości średniej (Lagrange'a).:Jeśli funkcja f jest ciągła na przedziale [a, b] i różniczkowalna na (a, b), to istnieje taki punkt c ∈ (a, b), że f'(c) = (f(b) - f(a)) / (b - a).
+Matematyka:Oblicz granicę lim(x→0) (sin(x)/x).:1 (można udowodnić np. z reguły de l'Hospitala lub z rozwinięcia w szereg Taylora).
+Matematyka:Wyznacz macierz odwrotną do macierzy A = [[a, b], [c, d]].:A⁻¹ = (1/(ad - bc)) * [[d, -b], [-c, a]], gdzie ad - bc ≠ 0 (wyznacznik macierzy A).
+Matematyka:Zdefiniuj liczbę zespoloną i podaj jej postać algebraiczną, trygonometryczną i wykładniczą.:Liczba zespolona to liczba postaci z = a + bi, gdzie a i b są liczbami rzeczywistymi, a i to jednostka urojona (i² = -1). Postać trygonometryczna: z = |z|(cos(φ) + isin(φ)), gdzie |z| to moduł, a φ to argument. Postać wykładnicza: z = |z|e^(iφ).
+Matematyka:Sformułuj podstawowe twierdzenie algebry.:Każdy wielomian o współczynnikach zespolonych stopnia n ≥ 1 ma co najmniej jeden pierwiastek zespolony.
+Matematyka:Zdefiniuj pochodną funkcji w punkcie.:Pochodna funkcji f w punkcie x₀ to granica ilorazu różnicowego: f'(x₀) = lim(h→0) (f(x₀ + h) - f(x₀)) / h.
+Matematyka:Oblicz sumę szeregu geometrycznego nieskończonego: a + aq + aq² + ... , gdzie |q| < 1.:S = a / (1 - q)
+Matematyka:Zdefiniuj przestrzeń metryczną i podaj przykłady.:Przestrzeń metryczna to zbiór X z funkcją d: X × X → R (metryka), spełniającą 4 aksjomaty. Przykład: Rⁿ z metryką euklidesową.
+Matematyka:Sformułuj twierdzenie Stokesa.:Twierdzenie Stokesa wiąże całkę krzywoliniową z całką powierzchniową rotacji pola wektorowego.
+Matematyka:Wyznacz rozwinięcie funkcji f(x) = eˣ w szereg Maclaurina.:eˣ = Σ(n=0 do ∞) xⁿ / n!
+Matematyka:Zdefiniuj transformatę Fouriera.:Transformata Fouriera rozkłada funkcję na składowe sinusoidalne o różnych częstotliwościach.
+Matematyka:Udowodnij, że liczba π jest niewymierna.:Dowód Lindemanna (z 1882 roku) wykazuje, że π jest liczbą przestępną, a więc i niewymierną.
+Matematyka:Zdefiniuj grupę, pierścień i ciało.:Grupa to zbiór z działaniem łącznym, elementem neutralnym i elementami odwrotnymi. Pierścień to zbiór z dwoma działaniami (dodawaniem i mnożeniem), gdzie dodawanie tworzy grupę abelową, a mnożenie jest łączne i rozdzielne względem dodawania. Ciało to pierścień, w którym każdy niezerowy element ma element odwrotny względem mnożenia.
+Matematyka:Oblicz objętość kuli o promieniu R.:(4/3)πR³
+Matematyka:Zdefiniuj topologię.:Topologia to struktura matematyczna określająca pojęcie otoczenia, otwartości zbiorów i ciągłości odwzorowań.
+Matematyka:Sformułuj twierdzenie Cantora-Bernsteina-Schrödera.:Jeśli istnieją iniekcje f: A → B i g: B → A, to istnieje bijekcja h: A → B.
+Matematyka:Wyznacz bazę i wymiar przestrzeni rozwiązań układu równań liniowych.:Należy rozwiązać układ równań i zapisać rozwiązania w postaci kombinacji liniowych wektorów. Te wektory tworzą bazę, a ich liczba to wymiar.
+Matematyka:Zdefiniuj krzywą eliptyczną.:Krzywa eliptyczna to krzywa algebraiczna opisana równaniem postaci y² = x³ + ax + b.
+Fizyka:Wyjaśnij zasadę działania i zastosowania efektu Comptona.:Efekt Comptona to rozpraszanie promieniowania elektromagnetycznego (np. promieni rentgenowskich) na swobodnych elektronach, w wyniku czego następuje zmiana długości fali promieniowania. Znalazł zastosowanie w badaniach struktury materii.
+Fizyka:Opisz zjawisko tunelowania kwantowego i jego implikacje.:Tunelowanie kwantowe to zjawisko przenikania cząstki przez barierę potencjału, nawet jeśli jej energia jest mniejsza niż wysokość bariery. Ma znaczenie w fizyce jądrowej, chemii i elektronice (np. diody tunelowe).
+Fizyka:Wyjaśnij różnicę między statystyką Bosego-Einsteina a statystyką Fermiego-Diraca.:Statystyka Bosego-Einsteina opisuje rozkład cząstek o spinie całkowitym (bozony), np. fotonów. Statystyka Fermiego-Diraca opisuje rozkład cząstek o spinie połówkowym (fermiony), np. elektronów.
+Fizyka:Opisz zjawisko nadprzewodnictwa i jego rodzaje.:Nadprzewodnictwo to zjawisko zaniku oporu elektrycznego poniżej pewnej temperatury krytycznej. Wyróżnia się nadprzewodniki I i II rodzaju.
+Fizyka:Wyjaśnij zasadę działania lasera i wymień jego rodzaje.:Laser (Light Amplification by Stimulated Emission of Radiation) generuje spójne promieniowanie elektromagnetyczne poprzez wymuszoną emisję promieniowania. Wyróżnia się m.in. lasery gazowe, półprzewodnikowe, barwnikowe.
+Fizyka:Opisz zjawisko interferencji i dyfrakcji fal.:Interferencja to nakładanie się fal, prowadzące do wzmocnienia lub osłabienia amplitudy. Dyfrakcja to ugięcie fal na przeszkodach.
+Fizyka:Wyjaśnij pojęcie dualizmu korpuskularno-falowego.:Dualizm korpuskularno-falowy to koncepcja, że obiekty fizyczne (np. elektrony, fotony) wykazują zarówno właściwości falowe, jak i korpuskularne (cząsteczkowe).
+Fizyka:Opisz zjawisko promieniowania ciała doskonale czarnego i prawo Plancka.:Ciało doskonale czarne absorbuje całe padające na nie promieniowanie. Prawo Plancka opisuje widmo promieniowania ciała doskonale czarnego w zależności od temperatury.
+Fizyka:Wyjaśnij zasadę działania reaktora jądrowego i rodzaje reakcji jądrowych w nim zachodzących.:Reaktor jądrowy służy do kontrolowanego rozszczepienia jąder atomowych, uwalniając energię. Zachodzą w nim reakcje rozszczepienia i reakcje łańcuchowe.
+Fizyka:Opisz model standardowy cząstek elementarnych.:Model standardowy to teoria opisująca cząstki elementarne i ich oddziaływania (silne, słabe, elektromagnetyczne).
+Fizyka:Wyjaśnij pojęcie entropii w termodynamice i mechanice statystycznej.:W termodynamice entropia jest miarą nieuporządkowania układu. W mechanice statystycznej jest związana z liczbą mikroskopowych stanów, w których może znajdować się układ.
+Fizyka:Opisz zjawisko efektu fotoelektrycznego i jego znaczenie.:Efekt fotoelektryczny to emisja elektronów z materiału pod wpływem padającego promieniowania elektromagnetycznego. Ma znaczenie w fotokomórkach i czujnikach.
+Fizyka:Wyjaśnij zasadę działania tranzystora i jego rodzaje.:Tranzystor to element półprzewodnikowy służący do wzmacniania lub przełączania sygnałów elektrycznych. Wyróżnia się m.in. tranzystory bipolarne (BJT) i tranzystory polowe (FET).
+Fizyka:Opisz zjawisko rezonansu magnetycznego jądrowego (NMR) i jego zastosowania.:NMR to zjawisko absorpcji promieniowania elektromagnetycznego przez jądra atomowe umieszczone w polu magnetycznym. Ma zastosowanie w spektroskopii NMR i obrazowaniu medycznym (MRI).
+Fizyka:Wyjaśnij pojęcie relatywistycznego efektu Dopplera.:Relatywistyczny efekt Dopplera uwzględnia efekty relatywistyczne przy obliczaniu zmiany częstotliwości promieniowania elektromagnetycznego emitowanego przez poruszające się źródło.
+Fizyka:Opisz zjawisko soczewkowania grawitacyjnego.:Soczewkowanie grawitacyjne to ugięcie światła przez masywne obiekty (np. galaktyki, czarne dziury), działające jak soczewki.
+Fizyka:Wyjaśnij pojęcie kwantyzacji energii i jej implikacje.:Kwantyzacja energii oznacza, że energia może przyjmować tylko dyskretne wartości. Ma to znaczenie w fizyce atomowej i kwantowej.
+Fizyka:Opisz zjawisko oscylacji neutrin.:Oscylacje neutrin to zmiana rodzaju (zapachu) neutrina podczas jego propagacji.
+Fizyka:Wyjaśnij pojęcie ciemnej materii i ciemnej energii.:Ciemna materia to hipotetyczna forma materii, która nie emituje i nie odbija światła. Ciemna energia to hipotetyczna forma energii, która odpowiada za przyspieszone rozszerzanie się Wszechświata.
+Fizyka:Opisz zjawisko fuzji jądrowej i warunki jej zajścia.:Fuzja jądrowa to łączenie się lekkich jąder atomowych w cięższe, z wydzieleniem energii. Wymaga bardzo wysokiej temperatury i ciśnienia.
+Fizyka:Wyjaśnij pojęcie horyzontu zdarzeń czarnej dziury.:Horyzont zdarzeń to granica w czasoprzestrzeni, zza której nic, nawet światło, nie może uciec z czarnej dziury.
+Fizyka:Opisz zjawisko splątania kwantowego.:Splątanie kwantowe to korelacja między dwoma lub więcej cząstkami, niezależnie od odległości między nimi.
+Fizyka:Wyjaśnij pojęcie zasady nieoznaczoności Heisenberga.:Zasada nieoznaczoności Heisenberga mówi, że nie można jednocześnie dokładnie zmierzyć położenia i pędu cząstki.
+Fizyka:Opisz zjawisko efektu Meissnera.:Efekt Meissnera to wypychanie pola magnetycznego z wnętrza nadprzewodnika.
+Fizyka:Wyjaśnij pojęcie chromodynamiki kwantowej (QCD).:Chromodynamika kwantowa to teoria oddziaływań silnych, opisująca oddziaływania między kwarkami i gluonami.
+Biochemia:Wyjaśnij mechanizm reakcji enzymatycznej z uwzględnieniem modelu indukowanego dopasowania.:Model indukowanego dopasowania zakłada, że aktywne centrum enzymu nie jest sztywne, lecz ulega zmianie konformacyjnej po związaniu substratu, co optymalizuje interakcję i katalizę.
+Biochemia:Opisz szlak glikolizy i jego regulację.:Glikoliza to szlak metaboliczny, w którym glukoza jest rozkładana do pirogronianu. Regulowana jest na kilku etapach, m.in. przez heksokinazę, fosfofruktokinazę-1 i kinazę pirogronianową.
+Biochemia:Wyjaśnij rolę cyklu Krebsa (cyklu kwasu cytrynowego) w metabolizmie komórkowym.:Cykl Krebsa to centralny szlak metaboliczny, w którym acetylo-CoA jest utleniany do CO₂, a powstające NADH i FADH₂ są nośnikami elektronów dla łańcucha oddechowego.
+Biochemia:Opisz łańcuch oddechowy i fosforylację oksydacyjną.:Łańcuch oddechowy to szereg przenośników elektronów w błonie mitochondrialnej, które przekazują elektrony z NADH i FADH₂ na tlen, generując gradient protonowy. Fosforylacja oksydacyjna wykorzystuje ten gradient do syntezy ATP.
+Biochemia:Wyjaśnij różnicę między glikogenezą a glikogenolizą.:Glikogeneza to synteza glikogenu z glukozy. Glikogenoliza to rozkład glikogenu do glukozy.
+Biochemia:Opisz proces β-oksydacji kwasów tłuszczowych.:β-oksydacja to proces rozkładu kwasów tłuszczowych do acetylo-CoA, który następnie wchodzi do cyklu Krebsa.
+Biochemia:Wyjaśnij rolę pentozofosforanowego szlaku (szlaku pentozowego).:Szlak pentozofosforanowy generuje NADPH i rybozę-5-fosforan, prekursory do syntezy nukleotydów.
+Biochemia:Opisz syntezę białek (translację).:Translacja to proces syntezy białek na rybosomach na podstawie informacji zawartej w mRNA.
+Biochemia:Wyjaśnij strukturę i funkcję DNA i RNA.:DNA to nośnik informacji genetycznej, zbudowany z dwóch nici polinukleotydowych. RNA bierze udział w ekspresji genów, występuje w kilku formach (mRNA, tRNA, rRNA).
+Biochemia:Opisz replikację DNA.:Replikacja DNA to proces kopiowania DNA, zachodzący przed podziałem komórki.
+Biochemia:Wyjaśnij proces transkrypcji.:Transkrypcja to proces syntezy RNA na matrycy DNA.
+Biochemia:Opisz budowę i funkcję błon biologicznych.:Błony biologiczne zbudowane są z dwuwarstwy lipidowej z wbudowanymi białkami. Pełnią funkcje barierowe i transportowe.
+Biochemia:Wyjaśnij rolę enzymów restrykcyjnych i ligaz w inżynierii genetycznej.:Enzymy restrykcyjne tną DNA w specyficznych miejscach, a ligazy łączą fragmenty DNA.
+Biochemia:Opisz strukturę i funkcję hemoglobiny i mioglobiny.:Hemoglobina transportuje tlen we krwi, a mioglobina magazynuje tlen w mięśniach.
+Biochemia:Wyjaśnij mechanizm działania insuliny i glukagonu w regulacji poziomu glukozy we krwi.:Insulina obniża poziom glukozy we krwi, a glukagon podwyższa.
+Biochemia:Opisz syntezę mocznika (cykl mocznikowy).:Cykl mocznikowy to szlak metaboliczny, w którym amoniak jest przekształcany w mocznik, który jest wydalany z organizmu.
+Biochemia:Wyjaśnij rolę koenzymów i kofaktorów w reakcjach enzymatycznych.:Koenzymy i kofaktory to niebiałkowe cząsteczki, które wspomagają działanie enzymów.
+Biochemia:Opisz metabolizm bilirubiny.:Bilirubina to produkt rozpadu hemu, który jest metabolizowany w wątrobie i wydalany z żółcią.
+Biochemia:Wyjaśnij mechanizm działania leków hamujących syntezę kwasu foliowego (np. metotreksat).:Leki te hamują reduktazę dihydrofolianu, enzym niezbędny do syntezy kwasu foliowego.
+Biochemia:Opisz strukturę i funkcję lipoprotein (np. LDL, HDL).:Lipoproteiny transportują lipidy we krwi. LDL transportuje cholesterol do tkanek, a HDL transportuje cholesterol z tkanek do wątroby.
+Biochemia:Wyjaśnij mechanizm działania pompy sodowo-potasowej.:Pompa sodowo-potasowa transportuje jony sodu na zewnątrz komórki, a jony potasu do wnętrza, utrzymując gradient elektrochemiczny.
+Biochemia:Opisz syntezę cholesterolu.:Cholesterol jest syntetyzowany z acetylo-CoA w wielu etapach.
+Biochemia:Wyjaśnij rolę hormonów steroidowych i ich mechanizm działania.:Hormony steroidowe regulują wiele procesów fizjologicznych, działając poprzez receptory jądrowe.
+Biochemia:Opisz proces trawienia białek, węglowodanów i lipidów.:Białka są trawione do aminokwasów, węglowodany do cukrów prostych, a lipidy do kwasów tłuszczowych i glicerolu.
+Biochemia:Wyjaśnij pojęcie allosterii i jej wpływ na aktywność enzymów.:Allosteria to regulacja aktywności enzymu poprzez wiązanie efektora w miejscu innym niż aktywne centrum.
+Polskie Kino i Telewizja:Który film Krzysztofa Kieślowskiego, będący częścią Dekalogu, porusza problem kazirodztwa?:Krótki film o miłości (część Dekalog VI).
+Polskie Kino i Telewizja:Kto skomponował muzykę do serialu "W labiryncie"?:Wojciech Trzciński.
+Polskie Kino i Telewizja:W którym filmie Andrzeja Wajdy Daniel Olbrychski wciela się w postać Rafała Olbromskiego?:Popiół i diament.
+Polskie Kino i Telewizja:Jaki tytuł nosi film Wojciecha Smarzowskiego, którego akcja toczy się na weselu?:Wesele.
+Polskie Kino i Telewizja:Który serial, reżyserowany m.in. przez Agnieszkę Holland, opowiada o kulisach polskiej polityki lat 80. XX wieku?:Ekipa.
+Polskie Kino i Telewizja:W którym filmie Romana Polańskiego wystąpił Leon Niemczyk?:Nóż w wodzie.
+Polskie Kino i Telewizja:Jaki tytuł nosi film Jerzego Skolimowskiego nominowany do Oscara w kategorii Najlepszy Film Międzynarodowy w 2023 roku?:IO.
+Polskie Kino i Telewizja:Kto wyreżyserował film "Rejs"?:Marek Piwowski.
+Polskie Kino i Telewizja:W którym serialu Maciej Stuhr wciela się w rolę patologa sądowego?:Belfer (sezon 2).
+Polskie Kino i Telewizja:Jaki tytuł nosi film Krzysztofa Zanussiego, w którym główną rolę gra Zbigniew Zapasiewicz?:Barwy ochronne.
+Polskie Kino i Telewizja:Który film Andrzeja Żuławskiego wywołał kontrowersje ze względu na sceny przemocy i erotyki?:Diabeł.
+Polskie Kino i Telewizja:W którym serialu występuje Janusz Gajos jako Jan Kos?:Czterej pancerni i pies.
+Polskie Kino i Telewizja:Jaki tytuł nosi film Agnieszki Holland opowiadający o Holokauście z perspektywy dziecka?:Europa, Europa.
+Polskie Kino i Telewizja:Który film Kazimierza Kutza opowiada o losach górników na Śląsku?:Sól ziemi czarnej.
+Polskie Kino i Telewizja:W którym serialu akcja toczy się w fikcyjnym miasteczku Wilkowyje?:Ranczo.
+Polskie Kino i Telewizja:Jaki tytuł nosi film, w którym Marek Kondrat gra Kubę Brennera, byłego milicjanta?:Psy.
+Polskie Kino i Telewizja:Który serial, oparty na powieści Jakuba Żulczyka, opowiada o warszawskim dilerze kokainy?:Ślepnąc od świateł.
+Polskie Kino i Telewizja:W którym filmie Jerzego Kawalerowicza Tadeusz Łomnicki wciela się w rolę księdza Jerzego Popiełuszki?:Matka Joanna od Aniołów.
+Polskie Kino i Telewizja:Jaki tytuł nosi film Lecha Majewskiego, którego akcja rozgrywa się w scenerii obrazów Bruegla?:Młyn i krzyż.
+Polskie Kino i Telewizja:Który serial, którego akcja rozgrywa się w Bieszczadach, opowiada o strażnikach granicznych?:Wataha.
+Polskie Kino i Telewizja:W którym filmie Andrzeja Munka Zofia Rysiówna gra główną rolę?:Eroica.
+Polskie Kino i Telewizja:Jaki tytuł nosi film Krzysztofa Krauzego opowiadający o aferze FOZZ?:Gry uliczne.
+Polskie Kino i Telewizja:Który serial komediowy, stworzony przez Roberta Górskiego, satyrycznie przedstawia polską rzeczywistość polityczną?:Ucho Prezesa.
+Polskie Kino i Telewizja:W którym filmie Andrzeja Wajdy Wojciech Pszoniak wciela się w postać Maksa Baum?:Ziemia obiecana.
+Polskie Kino i Telewizja:Jaki tytuł nosi film Janusza Zaorskiego, którego akcja rozgrywa się w środowisku artystycznym?:Baryton.
+Gry Komputerowe:Która polska gra RPG, bazująca na prozie Andrzeja Sapkowskiego, zdobyła międzynarodową sławę?:Wiedźmin 3: Dziki Gon
+Gry Komputerowe:Jaki tytuł nosi pierwsza gra z serii "Wiedźmin"?:Wiedźmin
+Gry Komputerowe:Które studio stworzyło serię gier "Dead Island" i "Dying Light"?:Techland
+Gry Komputerowe:Jaki podtytuł nosi dodatek do gry "Wiedźmin 3" rozgrywający się w Toussaint?:Krew i Wino
+Gry Komputerowe:Która polska gra strategiczna osadzona jest w realiach II wojny światowej i pozwala dowodzić oddziałami Armii Krajowej?:Uprising: Join or Die
+Gry Komputerowe:Jaki tytuł nosi gra przygodowa point-and-click stworzona przez studio Artifex Mundi, znane z produkcji HOPA?:Enigmatis: The Ghosts of Maple Creek
+Gry Komputerowe:Która gra, stworzona przez studio People Can Fly, łączy elementy strzelanki i RPG w postapokaliptycznym świecie?:Outriders
+Gry Komputerowe:Jaki tytuł nosi gra, w której gracz wciela się w rolę kuriera dostarczającego przesyłki w postapokaliptycznej Ameryce, stworzona przez Kojima Productions?:Death Stranding
+Gry Komputerowe:Która gra, stworzona przez studio CD Projekt RED przed serią Wiedźmin, była adaptacją systemu RPG "Cyberpunk 2020"?:Cyberpunk 2077
+Gry Komputerowe:Jaki tytuł nosi gra strategiczna czasu rzeczywistego, w której gracz buduje i zarządza kolonią na Marsie?:Surviving Mars
+Gry Komputerowe:Która gra, stworzona przez studio 11 bit studios, porusza tematykę moralnych wyborów w ekstremalnych warunkach zimowej apokalipsy?:This War of Mine
+Gry Komputerowe:Jaki tytuł nosi gra, w której gracz wciela się w rolę detektywa próbującego rozwiązać zagadkę morderstwa w nietypowych okolicznościach, stworzona przez ZA/UM?:Disco Elysium
+Gry Komputerowe:Która gra, stworzona przez studio Flying Wild Hog, jest rebootem serii strzelanek "Shadow Warrior"?:Shadow Warrior (2013)
+Gry Komputerowe:Jaki tytuł nosi gra, w której gracz wciela się w rolę Sama Fishera, agenta specjalnego zwalczającego terroryzm?:Tom Clancy's Splinter Cell
+Gry Komputerowe:Która gra, stworzona przez studio Remedy Entertainment, łączy elementy akcji, thrillera psychologicznego i serialu telewizyjnego?:Alan Wake
+Gry Komputerowe:Jaki tytuł nosi pierwsza gra z serii "Grand Theft Auto" wydana w 1997 roku?:Grand Theft Auto
+Gry Komputerowe:Która gra, stworzona przez studio Bethesda Game Studios, przenosi gracza do postapokaliptycznego świata Stanów Zjednoczonych?:Fallout 4
+Gry Komputerowe:Jaki tytuł nosi gra, w której gracz wciela się w rolę Linka, bohatera ratującego księżniczkę Zeldę?:The Legend of Zelda: Ocarina of Time
+Gry Komputerowe:Która gra, stworzona przez studio Rockstar Games, opowiada historię Arthura Morgana, członka gangu Dutcha van der Linde?:Red Dead Redemption 2
+Gry Komputerowe:Jaki tytuł nosi gra, w której gracz buduje i zarządza miastem, stawiając czoła różnym wyzwaniom, stworzona przez Colossal Order?:Cities: Skylines
+Gry Komputerowe:Która gra, stworzona przez studio BioWare, przenosi gracza do fantastycznego świata Thedas?:Dragon Age: Inquisition
+Gry Komputerowe:Jaki tytuł nosi gra, w której gracz wciela się w rolę Geralta z Rivii, wiedźmina polującego na potwory?:Wiedźmin 3: Dziki Gon
+Gry Komputerowe:Która gra, stworzona przez studio Valve, jest strzelanką pierwszoosobową z elementami logicznymi, w której gracz korzysta z urządzenia portalowego?:Portal 2
+Gry Komputerowe:Jaki tytuł nosi gra, w której gracz wciela się w rolę Master Chiefa, superżołnierza walczącego z Przymierzem?:Halo: Combat Evolved
+Gry Komputerowe:Która gra, stworzona przez studio Mojang Studios, pozwala graczom na budowanie i eksplorację nieskończonych światów z bloków?:Minecraft
+Muzyka:Jaki kompozytor wprowadził pojęcie "dodekafonii"?:Arnold Schönberg
+Muzyka:Który instrument jest centralnym elementem indonezyjskiego gamelanu?:Gamelan (zespół instrumentów perkusyjnych, głównie metalofonów)
+Muzyka:Co to jest "bel canto"?:Technika wokalna charakteryzująca się pięknym, równym brzmieniem w całym zakresie głosu
+Muzyka:Jaki utwór baletowy Igora Strawińskiego wywołał skandal podczas prapremiery w Paryżu w 1913 roku?:Święto wiosny (Le Sacre du printemps)
+Muzyka:Kto skomponował operę "Wozzeck"?:Alban Berg
+Muzyka:Co to jest "interwał tryton"?:Interwał składający się z trzech całych tonów (np. C-F#)
+Muzyka:Jaki ruch artystyczny w muzyce charakteryzował się minimalizmem i repetytywnością motywów?:Minimalizm (np. Steve Reich, Philip Glass)
+Muzyka:Który kompozytor stworzył "Cztery pory roku"?:Antonio Vivaldi
+Muzyka:Co to jest "polifonia"?:Technika kompozytorska, w której współbrzmi kilka niezależnych linii melodycznych
+Muzyka:Jaki instrument jest charakterystyczny dla muzyki flamenco?:Gitara flamenco
+Muzyka:Kto skomponował "Requiem d-moll"?:Wolfgang Amadeus Mozart (choć utwór dokończył jego uczeń Franz Xaver Süssmayr)
+Muzyka:Co to jest "fuga"?:Forma muzyczna oparta na imitacji tematu przez kolejne głosy
+Muzyka:Jaki instrument klawiszowy był popularny w epoce baroku i poprzedzał fortepian?:Klawesyn
+Muzyka:Który kompozytor stworzył operę "Tristan i Izolda"?:Richard Wagner
+Muzyka:Co to jest "sonata"?:Forma muzyczna składająca się zazwyczaj z trzech lub czterech części, charakteryzująca się specyficznym układem tonalnym i tematycznym
+Muzyka:Jaki gatunek muzyczny powstał w Stanach Zjednoczonych na przełomie XIX i XX wieku, łącząc elementy muzyki afrykańskiej i europejskiej?:Jazz
+Muzyka:Który kompozytor jest autorem "IX Symfonii" z "Odą do radości"?:Ludwig van Beethoven
+Muzyka:Co to jest "kadencja"?:Zakończenie frazy muzycznej, akord lub sekwencja akordów zamykająca utwór lub jego część
+Muzyka:Jaki instrument dęty drewniany charakteryzuje się podwójnym stroikiem?:Obój
+Muzyka:Który kompozytor stworzył balet "Jezioro łabędzie"?:Piotr Czajkowski
+Muzyka:Co to jest "improwizacja"?:Tworzenie muzyki na bieżąco, bez wcześniejszego przygotowania
+Muzyka:Jaki gatunek muzyczny charakteryzuje się silnym rytmem, synkopą i improwizacją, a wywodzi się z muzyki bluesowej?:Ragtime
+Muzyka:Który kompozytor jest autorem opery "Carmen"?:Georges Bizet
+Muzyka:Co to jest "leitmotiv"?:Motyw muzyczny, który symbolizuje postać, ideę lub przedmiot w operze lub muzyce filmowej
+Muzyka:Jaki instrument strunowy szarpany jest charakterystyczny dla muzyki country i bluegrass?:Banjo
+Teleturnieje:Kto był pierwszym prowadzącym polskiej edycji "Milionerów"?:Hubert Urbański
+Teleturnieje:Jaki teleturniej, prowadzony przez Tadeusza Sznuka, emitowany jest nieprzerwanie od 1994 roku?:Jeden z dziesięciu
+Teleturnieje:W którym teleturnieju uczestnicy typują, która z trzech odpowiedzi jest poprawna, a która jest "blefem"?:Blefuj
+Teleturnieje:Jaki teleturniej, oparty na formacie "Who Wants to Be a Millionaire?", był emitowany w TVP2 pod nazwą "Miliard w rozumie"?:Żadna odpowiedź. W TVP2 emitowano "Milionerów"
+Teleturnieje:Kto prowadził teleturniej "Va Banque"?:Kazimierz Kaczor
+Teleturnieje:Jaki teleturniej polega na odgadywaniu haseł na podstawie rysunków?:Kalambury
+Teleturnieje:W którym teleturnieju uczestnicy rywalizują w parach, odpowiadając na pytania z różnych dziedzin?:Familiada
+Teleturnieje:Jaki teleturniej, prowadzony przez Krzysztofa Ibisza, polega na licytowaniu wiedzy?:Awantura o kasę
+Teleturnieje:Który teleturniej, bazujący na amerykańskim formacie "Jeopardy!", polega na udzielaniu odpowiedzi w formie pytania?:Va Banque
+Teleturnieje:Jaki teleturniej, w którym uczestnicy obstawiają wyniki sportowe, prowadził Janusz Weiss?:Toto-Lotek (dawniej)
+Teleturnieje:W którym teleturnieju uczestnicy muszą wykazać się wiedzą o języku polskim?:Ojczyzna-polszczyzna
+Teleturnieje:Jaki teleturniej, prowadzony przez Zygmunta Chajzera, polegał na wykonywaniu różnych zadań sprawnościowych i logicznych?:Idź na całość
+Teleturnieje:Który teleturniej, w którym uczestnicy odgadywali melodie, prowadził Janusz Laskowski?:Śpiewające fortepiany
+Teleturnieje:Jaki teleturniej, w którym uczestnicy musieli wykazać się refleksem i wiedzą, prowadził Wojciech Pijanowski?:Koło Fortuny
+Teleturnieje:Który teleturniej, w którym uczestnicy odpowiadali na pytania dotyczące wiedzy ogólnej, prowadził Stanisław Mikulski?:Wielka gra
+Teleturnieje:Jaki teleturniej, w którym uczestnicy oceniali, czy dany fakt jest prawdą czy fałszem, prowadził Ryszard Rembiszewski?:Piramida
+Teleturnieje:Który teleturniej, w którym uczestnicy musieli odgadywać hasła na podstawie ich definicji, prowadził Andrzej Kmicic?:Hasło
+Teleturnieje:Jaki teleturniej, w którym uczestnicy musieli wykazać się znajomością przysłów i powiedzeń, prowadził Jerzy Kryszak?:Strzał w dziesiątkę
+Teleturnieje:Który teleturniej, w którym uczestnicy musieli odgadywać tytuły filmów na podstawie fragmentów dialogów, prowadził Bogusław Kaczyński?:Multilotek (wcześniej "Tele-Milion")
+Teleturnieje:Jaki teleturniej, w którym uczestnicy musieli wykazać się wiedzą o historii Polski, prowadził Tadeusz Olejnik?:Co ty wiesz o Polsce?
+Teleturnieje:Który teleturniej, w którym uczestnicy musieli odgadywać zawody na podstawie ich opisu, prowadził Paweł Wawrzecki?:Jaka to melodia? (jeden z segmentów programu)
+Teleturnieje:Jaki teleturniej, w którym uczestnicy musieli wykazać się wiedzą o mitologii, prowadził Jerzy Rosołowski?:Mitomania
+Teleturnieje:Który teleturniej, w którym uczestnicy musieli odgadywać cytaty z literatury, prowadził Janusz Gajos?:Szkatułka z pytaniami
+Teleturnieje:Jaki teleturniej, w którym uczestnicy musieli wykazać się wiedzą o geografii, prowadził Czesław Nowicki?:Klejnoty
+Teleturnieje:Który teleturniej, w którym uczestnicy musieli odgadywać zagadki logiczne, prowadził Andrzej Zaorski?:Zagadkowa niedziela
+Rozmaitości:Który pierwiastek chemiczny ma symbol Au?:Złoto
+Rozmaitości:Jaka jest stolica Australii?:Canberra
+Rozmaitości:Kto namalował obraz "Guernica"?:Pablo Picasso
+Rozmaitości:W którym roku rozpoczęła się II wojna światowa?:1939
+Rozmaitości:Ile kości ma dorosły człowiek?:206
+Rozmaitości:Jaki ocean jest największy na Ziemi?:Ocean Spokojny
+Rozmaitości:Kto napisał "Zbrodnię i karę"?:Fiodor Dostojewski
+Rozmaitości:Jaka jest jednostka miary natężenia prądu elektrycznego?:Amper
+Rozmaitości:Który polski król przyjął chrzest w 966 roku?:Mieszko I
+Rozmaitości:Jaki jest najwyższy szczyt Ziemi?:Mount Everest
+Rozmaitości:Kto odkrył prawo powszechnego ciążenia?:Isaac Newton
+Rozmaitości:Jaki instrument muzyczny wynalazł Adolphe Sax?:Saksofon
+Rozmaitości:W którym roku odbyły się pierwsze nowożytne Igrzyska Olimpijskie?:1896
+Rozmaitości:Jaki jest najdłuższy rzeka Afryki?:Nil
+Rozmaitości:Kto był pierwszym człowiekiem w kosmosie?:Jurij Gagarin
+Rozmaitości:Jaki jest wzór chemiczny wody?:H2O
+Rozmaitości:Który polski noblista otrzymał nagrodę za literaturę w 1924 roku?:Władysław Reymont
+Rozmaitości:Jaka jest prędkość światła w próżni?:Około 299 792 458 m/s
+Rozmaitości:Kto był prezydentem Stanów Zjednoczonych podczas II wojny światowej?:Franklin Delano Roosevelt
+Rozmaitości:Jaki jest najmniejszy kontynent na Ziemi?:Australia
+Rozmaitości:Który pierwiastek chemiczny jest głównym składnikiem powietrza, którym oddychamy?:Azot
+Rozmaitości:Kto napisał "Boską komedię"?:Dante Alighieri
+Rozmaitości:Jaka jest odległość Ziemi od Słońca (w przybliżeniu)?:Około 150 milionów kilometrów
+Rozmaitości:Który polski kompozytor skomponował operę "Halka"?:Stanisław Moniuszko
+Rozmaitości:Jaki jest symbol chemiczny ołowiu?:Pb
+Literatura Polska:Który poeta napisał cykl sonetów "Sonety krymskie"?:Adam Mickiewicz
+Literatura Polska:Jaki tytuł nosi powieść Bolesława Prusa, której akcja toczy się w Warszawie w XIX wieku?:Lalka
+Literatura Polska:Kto jest autorem dramatu "Wesele"?:Stanisław Wyspiański
+Literatura Polska:Jaki tytuł nosi poemat dygresyjny Adama Mickiewicza, zawierający opis podróży po Rosji?:Podróż do Rosji
+Literatura Polska:Który pisarz stworzył postać Kmicica?:Henryk Sienkiewicz ("Potop")
+Literatura Polska:Jaki tytuł nosi powieść Stefana Żeromskiego, której akcja toczy się w okresie powstania styczniowego?:Wierna rzeka
+Literatura Polska:Kto napisał "Tango"?:Sławomir Mrożek
+Literatura Polska:Jaki tytuł nosi zbiór opowiadań Brunona Schulza, którego akcja rozgrywa się w Drohobyczu?:Sklepy cynamonowe
+Literatura Polska:Który poeta był przedstawicielem Skamandra?:Julian Tuwim, Antoni Słonimski, Jan Lechoń, Kazimierz Wierzyński
+Literatura Polska:Jaki tytuł nosi powieść Witolda Gombrowicza, w której główny bohater cofa się do wieku szkolnego?:Ferdydurke
+Literatura Polska:Kto napisał "Mistrza i Małgorzatę"?:Michaił Bułhakow (choć jest to literatura rosyjska, ze względu na silne powiązania kulturowe bywa omawiana w kontekście literatury polskiej)
+Literatura Polska:Jaki tytuł nosi dramat Tadeusza Różewicza, w którym poruszana jest tematyka Holokaustu?:Kartoteka
+Literatura Polska:Który poeta napisał "Kwiaty polskie"?:Julian Tuwim
+Literatura Polska:Jaki tytuł nosi powieść Olgi Tokarczuk, za którą otrzymała Nagrodę Nobla?:Bieguni
+Literatura Polska:Kto napisał "Granicę"?:Zofia Nałkowska
+Literatura Polska:Jaki tytuł nosi cykl wierszy Czesława Miłosza, będący rozrachunkiem z komunizmem?:Ocalenie
+Literatura Polska:Który pisarz był autorem "Sanatorium pod Klepsydrą"?:Bruno Schulz
+Literatura Polska:Jaki tytuł nosi powieść Stanisława Lema, w której statek kosmiczny napotyka na tajemniczą planetę Solaris?:Solaris
+Literatura Polska:Kto napisał "Konrada Wallenroda"?:Adam Mickiewicz
+Literatura Polska:Jaki tytuł nosi powieść Wiesława Myśliwskiego, której akcja toczy się na polskiej wsi?:Widnokrąg
+Literatura Polska:Który poeta był autorem "Trenów"?:Jan Kochanowski
+Literatura Polska:Jaki tytuł nosi powieść Ignacego Krasickiego, będąca satyrą na polskie społeczeństwo XVIII wieku?:Mikołaja Doświadczyńskiego przypadki
+Literatura Polska:Kto napisał "Ziemię obiecaną"?:Władysław Reymont
+Literatura Polska:Jaki tytuł nosi dramat Stanisława Ignacego Witkiewicza, charakteryzujący się groteską i absurdem?:Szewcy
+Literatura Polska:Który poeta był przedstawicielem baroku i autorem "Łez Heraklita"?:Daniel Naborowski
+Filozofia i Religie:Jaki filozof wprowadził pojęcie "monady"?:Gottfried Wilhelm Leibniz
+Filozofia i Religie:Co to jest "problem zła" w teologii?:Problem pogodzenia istnienia wszechmocnego i wszechdobrgo Boga z istnieniem zła na świecie
+Filozofia i Religie:Który filozof sformułował "imperatyw kategoryczny"?:Immanuel Kant
+Filozofia i Religie:Jaki nurt filozoficzny neguje możliwość poznania rzeczywistości poza doświadczeniem zmysłowym?:Empiryzm
+Filozofia i Religie:Co to jest "aporia"?:Nierozwiązywalny problem logiczny, paradoks
+Filozofia i Religie:Który filozof starożytny był uczniem Sokratesa i nauczycielem Arystotelesa?:Platon
+Filozofia i Religie:Jaki termin teologiczny określa naukę o ostatecznych rzeczach, takich jak śmierć, sąd ostateczny, niebo i piekło?:Eschatologia
+Filozofia i Religie:Który filozof egzystencjalista napisał "Byt i nicość"?:Jean-Paul Sartre
+Filozofia i Religie:Co to jest "Ockhamova brzytwa"?:Zasada metodologiczna, która mówi, że spośród konkurencyjnych hipotez należy wybierać tę najprostszą, o najmniejszej liczbie założeń
+Filozofia i Religie:Jaki system filozoficzny utożsamia Boga z naturą?:Panteizm
+Filozofia i Religie:Który filozof stworzył koncepcję "nadczłowieka"?:Friedrich Nietzsche
+Filozofia i Religie:Co to jest "gnostycyzm"?:Ruch religijno-filozoficzny, który łączył elementy chrześcijaństwa, platonizmu i religii Wschodu, kładąc nacisk na tajemną wiedzę (gnozę) jako drogę do zbawienia
+Filozofia i Religie:Który filozof wprowadził pojęcie "idei"?:Platon
+Filozofia i Religie:Jaki termin teologiczny określa naukę o Trójcy Świętej?:Trynitologia
+Filozofia i Religie:Który filozof sceptyk głosił, że nie można osiągnąć pewnej wiedzy?:Piron z Elidy
+Filozofia i Religie:Co to jest "soteriologia"?:Dział teologii zajmujący się nauką o zbawieniu
+Filozofia i Religie:Który filozof rozwinął teorię form?:Platon
+Filozofia i Religie:Jaki ruch religijny odrzuca dogmaty i kładzie nacisk na osobiste doświadczenie Boga?:Kwakrzy (Towarzystwo Przyjaciół)
+Filozofia i Religie:Który filozof stworzył "pięć dróg" dowodzenia istnienia Boga?:Tomasz z Akwinu
+Filozofia i Religie:Co to jest "deizm"?:Pogląd religijno-filozoficzny, który uznaje istnienie Boga jako stwórcy świata, ale odrzuca jego ingerencję w jego dalsze losy
+Filozofia i Religie:Który filozof był autorem "Etyki nikomachejskiej"?:Arystoteles
+Filozofia i Religie:Jaki termin religijny określa wiarę w jednego Boga?:Monoteizm
+Filozofia i Religie:Który filozof był prekursorem egzystencjalizmu i autorem "Bojaźni i drżenia"?:Søren Kierkegaard
+Filozofia i Religie:Co to jest "dualizm"?:Pogląd filozoficzny lub religijny, który zakłada istnienie dwóch odrębnych i przeciwstawnych zasad lub substancji, np. dobra i zła, ducha i materii
+Filozofia i Religie:Jaki nurt filozoficzny kładzie nacisk na wolność jednostki i jej odpowiedzialność za własne czyny?:Egzystencjalizm
+Polityka Polska:Który prezydent RP wprowadził urząd Ministra do Spraw Unii Europejskiej?:Aleksander Kwaśniewski
+Polityka Polska:W którym roku Polska przystąpiła do NATO?:1999
+Polityka Polska:Kto był premierem Polski w momencie wejścia do Unii Europejskiej?:Leszek Miller
+Polityka Polska:Jaki tytuł nosi dokument, który reguluje funkcjonowanie Trybunału Konstytucyjnego?:Ustawa o Trybunale Konstytucyjnym
+Polityka Polska:Który z premierów III RP najdłużej sprawował swój urząd (nie licząc przerw)?:Donald Tusk
+Polityka Polska:W którym roku odbyły się pierwsze wolne wybory parlamentarne po upadku komunizmu w Polsce?:1989 (częściowo wolne – wybory do Sejmu kontraktowego i w pełni wolne do Senatu)
+Polityka Polska:Kto był pierwszym Marszałkiem Sejmu III RP?:Mikołaj Kozakiewicz
+Polityka Polska:Jaki próg wyborczy obowiązuje w Polsce w wyborach do Sejmu dla partii politycznych?:5% (dla koalicji wyborczych – 8%)
+Polityka Polska:Który prezydent RP został wybrany w wyniku referendum konstytucyjnego?:Żaden (Konstytucja z 1997 r. została przyjęta w referendum, ale żaden prezydent nie został wybrany bezpośrednio w takim trybie)
+Polityka Polska:Jaki organ państwowy stoi na straży suwerenności i nienaruszalności terytorium Rzeczypospolitej Polskiej?:Prezydent RP
+Polityka Polska:Który z polskich polityków był przewodniczącym Parlamentu Europejskiego?:Jerzy Buzek
+Polityka Polska:Jaki tytuł nosi akt prawny regulujący zasady funkcjonowania samorządu terytorialnego w Polsce?:Ustawa o samorządzie gminnym, Ustawa o samorządzie powiatowym, Ustawa o samorządzie województwa
+Polityka Polska:Który z premierów III RP podał się do dymisji w wyniku tzw. "afery Rywina"?:Leszek Miller
+Polityka Polska:W którym roku odbyło się referendum akcesyjne dotyczące przystąpienia Polski do Unii Europejskiej?:2003
+Polityka Polska:Jaki organ państwowy ma wyłączne prawo inicjatywy ustawodawczej w zakresie budżetu państwa?:Rada Ministrów
+Polityka Polska:Który z prezydentów RP został postawiony przed Trybunałem Stanu?:Wojciech Jaruzelski
+Polityka Polska:Jaki tytuł nosi dokument określający podstawowe zasady ustrojowe państwa polskiego?:Konstytucja Rzeczypospolitej Polskiej
+Polityka Polska:Który z premierów III RP był doktorem habilitowanym nauk prawnych?:Kazimierz Marcinkiewicz
+Polityka Polska:W którym roku Polska przystąpiła do Organizacji Współpracy Gospodarczej i Rozwoju (OECD)?:1996
+Polityka Polska:Jaki organ państwowy sprawuje kontrolę nad działalnością Rady Ministrów?:Sejm
+Polityka Polska:Który z prezydentów RP wprowadził Małą Konstytucję?:Lech Wałęsa
+Polityka Polska:Jaki tytuł nosi ustawa regulująca zasady przeprowadzania wyborów do Sejmu i Senatu?:Kodeks wyborczy
+Polityka Polska:Który z premierów III RP był ministrem finansów przed objęciem funkcji premiera?:Mateusz Morawiecki
+Polityka Polska:W którym roku Polska podpisała Traktat Północnoatlantycki (Traktat Waszyngtoński)?:1999 (ratyfikacja i wejście w życie)
+Polityka Polska:Jaki organ państwowy powołuje i odwołuje Prezesa Narodowego Banku Polskiego?:Prezydent RP na wniosek Prezesa Rady Ministrów
+Sztuka:Jaki artysta namalował cykl obrazów "Impresja, wschód słońca", od którego nazwano cały kierunek w malarstwie?:Claude Monet
+Sztuka:Który rzeźbiarz stworzył "Dawida" z marmuru, stojącego we Florencji?:Michał Anioł
+Sztuka:Jaki styl architektoniczny charakteryzuje katedra Notre-Dame w Paryżu?:Gotyk
+Sztuka:Który kompozytor skomponował operę "Czarodziejski flet"?:Wolfgang Amadeus Mozart
+Sztuka:Jaki reżyser nakręcił film "Obywatel Kane"?:Orson Welles
+Sztuka:Który pisarz stworzył "Boską komedię"?:Dante Alighieri
+Sztuka:Jaki kierunek w malarstwie charakteryzuje się użyciem małych punktów farby, tworzących obraz widziany z odległości?:Pointylizm (Georges Seurat)
+Sztuka:Który rzeźbiarz był autorem "Myśliciela"?:Auguste Rodin
+Sztuka:Jaki styl architektoniczny charakteryzuje budowla Koloseum w Rzymie?:Architektura starożytnego Rzymu (z elementami porządku toskańskiego i kompozytowego)
+Sztuka:Który kompozytor skomponował "IX Symfonię" z "Odą do radości"?:Ludwig van Beethoven
+Sztuka:Jaki reżyser nakręcił film "Pulp Fiction"?:Quentin Tarantino
+Sztuka:Który pisarz napisał "Sto lat samotności"?:Gabriel García Márquez
+Sztuka:Jaki kierunek w malarstwie charakteryzuje się geometrycznymi formami i abstrakcją?:Kubizm (Pablo Picasso, Georges Braque)
+Sztuka:Który rzeźbiarz stworzył "Nike z Samotraki"?:Nieznany (prawdopodobnie z Rodos)
+Sztuka:Jaki styl architektoniczny charakteryzuje budowla Sagrada Familia w Barcelonie?:Modernizm (Antoni Gaudí)
+Sztuka:Który kompozytor skomponował balet "Jezioro łabędzie"?:Piotr Czajkowski
+Sztuka:Jaki reżyser nakręcił film "Siedmiu samurajów"?:Akira Kurosawa
+Sztuka:Który pisarz napisał "Ulisses"?:James Joyce
+Sztuka:Jaki kierunek w malarstwie charakteryzuje się przedstawianiem irracjonalnych scen i motywów sennych?:Surrealizm (Salvador Dalí, René Magritte)
+Sztuka:Który rzeźbiarz był autorem "Bramy Piekieł"?:Auguste Rodin
+Sztuka:Jaki styl architektoniczny charakteryzuje budowla Tadż Mahal w Agrze?:Architektura Mogołów
+Sztuka:Który kompozytor skomponował "Wiosnę" z cyklu "Cztery pory roku"?:Antonio Vivaldi
+Sztuka:Jaki reżyser nakręcił film "Casablanca"?:Michael Curtiz
+Sztuka:Który pisarz napisał "Proces"?:Franz Kafka
+Sztuka:Jaki kierunek w sztuce charakteryzuje się odrzuceniem tradycyjnych form i poszukiwaniem nowych środków wyrazu, często prowokacyjnych i awangardowych?:Dadaizm (Hugo Ball, Tristan Tzara)
+Farmakologia:Jaki jest mechanizm działania warfaryny?:Hamowanie reduktazy epoksydu witaminy K, co prowadzi do zmniejszenia syntezy czynników krzepnięcia zależnych od witaminy K (II, VII, IX, X)
+Farmakologia:Co to jest biodostępność leku?:Frakcja podanej dawki leku, która dociera do krążenia ogólnego w postaci niezmienionej
+Farmakologia:Jaki enzym metabolizuje większość leków w wątrobie?:Cytochrom P450
+Farmakologia:Co to jest efekt pierwszego przejścia (efekt pierwszego trawienia)?:Metabolizm leku w wątrobie i jelitach przed dotarciem do krążenia ogólnego po podaniu doustnym
+Farmakologia:Jaki jest mechanizm działania metforminy?:Zmniejszenie wątrobowej produkcji glukozy, zwiększenie wrażliwości tkanek na insulinę oraz nieznaczne spowolnienie wchłaniania glukozy z przewodu pokarmowego
+Farmakologia:Co to jest klirens nerkowy?:Objętość osocza, która jest oczyszczana z leku przez nerki w jednostce czasu
+Farmakologia:Jaki jest mechanizm działania inhibitorów pompy protonowej (IPP)?:Nieodwracalne hamowanie pompy protonowej H+/K+ ATPazy w komórkach okładzinowych żołądka, co prowadzi do zmniejszenia wydzielania kwasu solnego
+Farmakologia:Co to jest objętość dystrybucji (Vd)?:Teoretyczna objętość płynów ustrojowych, w której lek musiałby być równomiernie rozmieszczony, aby uzyskać takie samo stężenie, jakie obserwuje się we krwi
+Farmakologia:Jaki jest mechanizm działania selektywnych inhibitorów wychwytu zwrotnego serotoniny (SSRI)?:Selektywne hamowanie wychwytu zwrotnego serotoniny z przestrzeni synaptycznej do neuronu presynaptycznego, co zwiększa dostępność serotoniny dla receptorów postsynaptycznych
+Farmakologia:Co to jest okres półtrwania leku (t1/2)?:Czas, w którym stężenie leku w osoczu zmniejsza się o połowę
+Farmakologia:Jaki jest mechanizm działania niesteroidowych leków przeciwzapalnych (NLPZ)?:Hamowanie cyklooksygenazy (COX), enzymu odpowiedzialnego za syntezę prostaglandyn
+Farmakologia:Co to jest dawka nasycająca?:Początkowa, większa dawka leku podawana w celu szybkiego osiągnięcia stężenia terapeutycznego
+Farmakologia:Jaki jest mechanizm działania antagonistów receptorów angiotensyny II (ARA II)?:Blokowanie receptorów AT1 dla angiotensyny II, co zapobiega jej działaniu, m.in. skurczowi naczyń krwionośnych i uwalnianiu aldosteronu
+Farmakologia:Co to jest interakcja farmakokinetyczna?:Wpływ jednego leku na wchłanianie, dystrybucję, metabolizm lub wydalanie drugiego leku
+Farmakologia:Jaki jest mechanizm działania beta-blokerów?:Blokowanie receptorów beta-adrenergicznych, co hamuje działanie adrenaliny i noradrenaliny
+Farmakologia:Co to jest efekt addycyjny interakcji leków?:Suma efektów dwóch leków podanych jednocześnie jest równa sumie ich efektów, gdyby były podane oddzielnie
+Farmakologia:Jaki jest mechanizm działania glikozydów nasercowych (np. digoksyna)?:Hamowanie pompy sodowo-potasowej (Na+/K+ ATPazy) w kardiomiocytach, co prowadzi do zwiększenia siły skurczu mięśnia sercowego
+Farmakologia:Co to jest efekt synergistyczny interakcji leków?:Efekt dwóch leków podanych jednocześnie jest większy niż suma ich efektów, gdyby były podane oddzielnie
+Farmakologia:Jaki jest mechanizm działania leków mukolitycznych (np. acetylocysteina)?:Rozrywanie wiązań dwusiarczkowych w mukoproteinach śluzu, co zmniejsza jego lepkość
+Farmakologia:Co to jest tolerancja na lek?:Zmniejszenie odpowiedzi organizmu na lek w wyniku jego długotrwałego stosowania
+Farmakologia:Jaki jest mechanizm działania leków przeciwwirusowych (np. acyklowir)?:Hamowanie syntezy DNA wirusa
+Farmakologia:Co to jest zależność fizyczna od leku?:Stan adaptacji organizmu do obecności leku, charakteryzujący się wystąpieniem objawów odstawiennych po jego przerwaniu
+Farmakologia:Jaki jest mechanizm działania leków przeciwgrzybiczych azolowych (np. flukonazol)?:Hamowanie syntezy ergosterolu, głównego składnika błony komórkowej grzybów
+Farmakologia:Co to jest indeks terapeutyczny?:Stosunek dawki toksycznej do dawki terapeutycznej leku
+Farmakologia:Jaki jest mechanizm działania leków przeciwhistaminowych H1 (np. cetyryzyna)?:Blokowanie receptorów histaminowych H1, co hamuje działanie histaminy
+Polityka Zagraniczna:Co to jest doktryna Monroego?:Zasada polityki zagranicznej Stanów Zjednoczonych, ogłoszona w 1823 roku, która sprzeciwiała się dalszej kolonizacji Ameryk przez państwa europejskie i ingerencji tych państw w sprawy państw Ameryki
+Polityka Zagraniczna:Jaki jest cel istnienia Międzynarodowego Trybunału Karnego (MTK)?:Ściganie osób oskarżonych o najcięższe zbrodnie międzynarodowe, takie jak ludobójstwo, zbrodnie przeciwko ludzkości i zbrodnie wojenne
+Polityka Zagraniczna:Co to jest konwencja wiedeńska o prawie traktatów?:Międzynarodowy traktat kodyfikujący prawo traktatów, regulujący m.in. zawieranie, interpretację, zmianę i wygaśnięcie traktatów
+Polityka Zagraniczna:Jaka jest rola Rady Bezpieczeństwa ONZ?:Utrzymywanie międzynarodowego pokoju i bezpieczeństwa
+Polityka Zagraniczna:Co to jest soft power?:Zdolność do wywierania wpływu na inne państwa poprzez kulturę, wartości i dyplomację, a nie poprzez siłę militarną lub ekonomiczną
+Polityka Zagraniczna:Wymień stałych członków Rady Bezpieczeństwa ONZ?:Chiny, Francja, Rosja, Stany Zjednoczone, Wielka Brytania
+Polityka Zagraniczna:Co to jest doktryna Hallsteina?:Doktryna polityki zagranicznej Republiki Federalnej Niemiec w okresie zimnej wojny, zgodnie z którą RFN nie utrzymywała stosunków dyplomatycznych z państwami, które uznawały NRD (z wyjątkiem ZSRR)
+Polityka Zagraniczna:Jaki jest cel istnienia Organizacji Państw Amerykańskich (OPA)?:Współpraca polityczna, gospodarcza i społeczna państw Ameryki
+Polityka Zagraniczna:Co to jest klauzula największego uprzywilejowania (KNU)?:Zasada w handlu międzynarodowym, zgodnie z którą korzyści handlowe przyznane jednemu państwu muszą być automatycznie rozszerzone na wszystkie inne państwa, z którymi dany kraj ma podpisane umowy handlowe
+Polityka Zagraniczna:Jaka jest rola Zgromadzenia Ogólnego ONZ?:Forum dyskusyjne dla wszystkich państw członkowskich ONZ, zajmujące się m.in. kwestiami pokoju i bezpieczeństwa, rozwoju gospodarczego i społecznego, praw człowieka i prawa międzynarodowego
+Polityka Zagraniczna:Co to jest realpolitik?:Podejście w polityce zagranicznej, które kładzie nacisk na pragmatyczne dążenie do realizacji interesów państwa, niezależnie od ideologii czy moralności
+Polityka Zagraniczna:Jaki jest cel istnienia Organizacji Współpracy Gospodarczej i Rozwoju (OECD)?:Wspieranie rozwoju gospodarczego i społecznego państw członkowskich
+Polityka Zagraniczna:Co to jest prawo morza?:Zbiór norm prawnych regulujących korzystanie z mórz i oceanów, w tym m.in. żeglugę, rybołówstwo, eksploatację zasobów naturalnych i ochronę środowiska morskiego
+Polityka Zagraniczna:Jaka jest rola NATO?:Zapewnienie bezpieczeństwa zbiorowego państw członkowskich poprzez obronę militarną
+Polityka Zagraniczna:Co to jest dyplomacja prewencyjna?:Działania dyplomatyczne podejmowane w celu zapobiegania eskalacji konfliktów i wybuchowi wojen
+Polityka Zagraniczna:Jaki jest cel istnienia Unii Afrykańskiej (UA)?:Wspieranie integracji i rozwoju państw afrykańskich
+Polityka Zagraniczna:Co to jest doktryna Cartera?:Doktryna polityki zagranicznej Stanów Zjednoczonych, ogłoszona w 1980 roku, zgodnie z którą region Zatoki Perskiej jest obszarem żywotnych interesów USA i Stany Zjednoczone będą bronić tych interesów, w razie potrzeby siłą
+Polityka Zagraniczna:Jaki jest cel istnienia Światowej Organizacji Handlu (WTO)?:Liberalizacja handlu międzynarodowego i rozwiązywanie sporów handlowych między państwami członkowskimi
+Polityka Zagraniczna:Co to jest immunitet dyplomatyczny?:Zestaw przywilejów i immunitetów przysługujących dyplomatom, mających na celu zapewnienie im swobody wykonywania obowiązków służbowych
+Polityka Zagraniczna:Jaka jest rola Międzynarodowego Funduszu Walutowego (MFW)?:Monitorowanie gospodarki światowej i udzielanie pomocy finansowej państwom członkowskim w trudnej sytuacji ekonomicznej
+Polityka Zagraniczna:Co to jest polityka „otwartych drzwi” w NATO?:Zasada, zgodnie z którą każde państwo europejskie, które spełnia określone kryteria, może ubiegać się o członkostwo w NATO
+Polityka Zagraniczna:Jaki jest cel istnienia ASEAN (Stowarzyszenia Narodów Azji Południowo-Wschodniej)?:Współpraca gospodarcza, polityczna i kulturalna państw Azji Południowo-Wschodniej
+Polityka Zagraniczna:Co to jest embargo?:Zakaz handlu z danym krajem lub grupą krajów, stosowany jako środek nacisku politycznego lub ekonomicznego
+Polityka Zagraniczna:Jaka jest rola Wysokiego Komisarza Narodów Zjednoczonych ds. Uchodźców (UNHCR)?:Ochrona uchodźców i pomoc w rozwiązywaniu problemów uchodźczych na całym świecie
+Polityka Zagraniczna:Co to jest polityka nieingerencji?:Zasada, zgodnie z którą państwa nie powinny ingerować w wewnętrzne sprawy innych państw
+Kategoria:Pytanie:Odpowiedź
+Elektronika i Technologie:Co to jest efekt Halla i jakie ma zastosowania?:Powstawanie różnicy potencjałów poprzecznie do przepływu prądu w przewodniku umieszczonym w polu magnetycznym. Zastosowania: czujniki położenia, pomiar pola magnetycznego, czujniki prądu.
+Elektronika i Technologie:Wyjaśnij zasadę działania tranzystora MOSFET.:Tranzystor polowy, w którym sterowanie przepływem prądu między źródłem a drenem odbywa się za pomocą pola elektrycznego wytwarzanego na bramce, izolowanej od kanału warstwą tlenku.
+Elektronika i Technologie:Co to jest FPGA i do czego służy?:Programowalna macierz bramek logicznych (Field-Programmable Gate Array). Układ scalony, którego funkcje logiczne można konfigurować po wyprodukowaniu, co pozwala na implementację złożonych układów cyfrowych.
+Elektronika i Technologie:Na czym polega modulacja QAM i gdzie jest stosowana?:Modulacja kwadraturowa amplitudy. Informacja jest kodowana w zmianach amplitudy i fazy nośnej. Stosowana m.in. w telewizji kablowej, transmisji danych w sieciach Wi-Fi.
+Elektronika i Technologie:Co to jest protokół TCP/IP i jakie warstwy go tworzą?:Zestaw protokołów komunikacyjnych używanych w Internecie. Warstwy: Aplikacji, Transportowa, Sieciowa (Internetowa), Dostępu do Sieci (Łącza Danych).
+Elektronika i Technologie:Wyjaśnij zasadę działania pamięci flash.:Pamięć półprzewodnikowa, w której dane są przechowywane w komórkach pamięci poprzez uwięzienie ładunku elektrycznego w tranzystorze z pływającą bramką. Umożliwia kasowanie i programowanie elektryczne.
+Elektronika i Technologie:Co to jest IoT i jakie wyzwania stwarza?:Internet Rzeczy (Internet of Things). Sieć połączonych urządzeń, które zbierają i wymieniają dane. Wyzwania: bezpieczeństwo, prywatność, interoperacyjność, skalowalność.
+Elektronika i Technologie:Na czym polega działanie sieci neuronowych konwolucyjnych (CNN)?:Rodzaj sieci neuronowych, szczególnie skuteczny w przetwarzaniu obrazów. Wykorzystuje operacje konwolucji do wykrywania cech obrazu.
+Elektronika i Technologie:Co to jest kwantowy komputer i jakie są jego potencjalne zastosowania?:Komputer wykorzystujący zjawiska mechaniki kwantowej do wykonywania obliczeń. Potencjalne zastosowania: kryptografia, medycyna, materiałoznawstwo, optymalizacja.
+Elektronika i Technologie:Wyjaśnij zasadę działania radaru.:System do wykrywania i lokalizacji obiektów za pomocą fal radiowych. Wysyła fale i analizuje odbite echo.
+Elektronika i Technologie:Co to jest Bluetooth Low Energy (BLE) i czym różni się od klasycznego Bluetooth?:Wersja Bluetooth o niskim poborze energii, przeznaczona do aplikacji o niskiej przepustowości, takich jak urządzenia noszone (wearables) i czujniki.
+Elektronika i Technologie:Na czym polega technologia 5G i jakie korzyści przynosi?:Piąta generacja technologii mobilnej. Korzyści: większa przepustowość, niższe opóźnienia, obsługa większej liczby urządzeń.
+Elektronika i Technologie:Co to jest druk 3D i jakie są jego rodzaje?:Technologia addytywnego wytwarzania, polegająca na budowaniu obiektów warstwa po warstwie. Rodzaje: FDM, SLA, SLS, MJF.
+Elektronika i Technologie:Wyjaśnij zasadę działania czujnika MEMS (Microelectromechanical Systems).:Mikroelektromechaniczne systemy integrujące elementy mechaniczne i elektroniczne na jednym chipie. Przykład: akcelerometr, żyroskop.
+Elektronika i Technologie:Co to jest chmura obliczeniowa (cloud computing)?:Model dostarczania usług informatycznych przez Internet, obejmujący m.in. moc obliczeniową, pamięć masową i oprogramowanie.
+Elektronika i Technologie:Na czym polega technologia blockchain i jakie ma zastosowania poza kryptowalutami?:Rozproszona baza danych, w której dane są przechowywane w blokach połączonych łańcuchem. Zastosowania: logistyka, głosowanie elektroniczne, zarządzanie łańcuchem dostaw.
+Elektronika i Technologie:Co to jest sztuczna inteligencja (AI) i jakie są jej główne gałęzie?:Dziedzina informatyki zajmująca się tworzeniem systemów, które wykazują cechy inteligentne. Gałęzie: uczenie maszynowe, przetwarzanie języka naturalnego, robotyka.
+Elektronika i Technologie:Wyjaśnij zasadę działania silnika krokowego.:Silnik elektryczny, którego ruch obrotowy jest podzielony na dyskretne kroki. Umożliwia precyzyjne sterowanie położeniem.
+Elektronika i Technologie:Co to jest Internet Protokół w wersji 6 (IPv6) i dlaczego został wprowadzony?:Nowa wersja protokołu internetowego, wprowadzona w celu rozwiązania problemu wyczerpywania się adresów IPv4.
+Elektronika i Technologie:Na czym polega technologia wirtualnej rzeczywistości (VR) i rozszerzonej rzeczywistości (AR)?:VR: generowanie interaktywnego, trójwymiarowego środowiska, w którym użytkownik jest zanurzony. AR: nakładanie elementów cyfrowych na obraz rzeczywistego świata.
+Elektronika i Technologie:Co to jest dioda Zenera i jakie ma zastosowania?:Dioda krzemowa, która przy odpowiednim napięciu wstecznym wykazuje gwałtowny wzrost prądu. Zastosowania: stabilizacja napięcia.
+Elektronika i Technologie:Wyjaśnij zasadę działania przetwornika analogowo-cyfrowego (ADC).:Układ elektroniczny, który konwertuje sygnał analogowy na sygnał cyfrowy.
+Elektronika i Technologie:Co to jest pamięć RAM i ROM i czym się różnią?:RAM (Random Access Memory): pamięć o dostępie swobodnym, ulotna. ROM (Read-Only Memory): pamięć tylko do odczytu, nieulotna.
+Elektronika i Technologie:Na czym polega technologia Li-Fi i czym różni się od Wi-Fi?:Technologia bezprzewodowej transmisji danych za pomocą światła widzialnego. W porównaniu do Wi-Fi oferuje potencjalnie większą przepustowość i bezpieczeństwo.
+Elektronika i Technologie:Co to jest system wbudowany (embedded system)?:System komputerowy wbudowany w urządzenie, pełniący dedykowane funkcje, często z ograniczeniami zasobów.
